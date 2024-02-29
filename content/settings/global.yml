@@ -1,8 +1,7 @@
-siteTitle: Yellow Cake
-siteUrl: 'https://yellowcake.netlify.com'
+siteTitle: La Cinta Corta
+siteUrl: 'https://www.lacintacorta.org'
 siteDescription: >-
-  A starter project for creating lightning-fast websites with Gatsby v2 Netlify
-  CMS v2 and Uploadcare media library.
+  Website de La Cinta Corta.
 socialMediaCard:
-  image: 'https://ucarecdn.com/fcc8d148-a9a8-42ee-a793-0f12b1437f61/'
+  image: 'https://ucarecdn.com/b3bbd594-4e2e-4961-865e-175e8dbd0b90/'
 googleTrackingId: 'UA-133175780-1'

@@ -4,7 +4,34 @@
   font-size: 1.2rem;
 }
 
+.social {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-gap: 0.25em;  
+}
+
+.social a {
+  font-size: 1.25rem;
+
+  justify-content: center;
+  padding: 0.75rem;
+  align-items: center;
+  min-width: 150px;
+}
+
+.fb {
+  grid-column: 2;
+}
+.ig {
+  grid-column: 3;
+}
+.wa {
+  grid-column: 2 / 4;
+  grid-row: 2;
+}
+
 .footer a {
-  color: black;
-  text-decoration: none;
+  color: var(--secondary);
+  /* text-decoration: none; */
 }

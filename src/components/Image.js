@@ -35,7 +35,7 @@ class Image extends React.Component {
   }
 
   checkIsUploadcare(src) {
-    return typeof src === 'string' && src.includes('ucarecdn.com')
+    return typeof src ===  'string' && src.includes('ucarecdn.com')
   }
 
   getResolutionString(res) {

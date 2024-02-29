@@ -29,6 +29,10 @@
   color: black;
 }
 
+.PostCategoriesNav .NavLink {
+  border: 1px solid rgba(88, 88, 88, 0.485);
+  border-radius: 5%;
+}
 @media (max-width: 600px) {
   .PostCategoriesNav input[type='text'] {
     position: relative;

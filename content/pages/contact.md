@@ -1,12 +1,15 @@
 ---
 template: ContactPage
 slug: contact
-title: Contact Page
-featuredImage: https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/
-subtitle: This is the contact page subtitle.
-address: '404 James St, Burleigh Heads QLD 4220'
-phone: 0987 123 456
-email: example@example.com
+title: Contáctanos
+featuredImage: https://images.unsplash.com/photo-1643409759748-b53f74108370?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80
+subtitle:
+address: 'Av. Portugal E10-109 Edif. Oporto 2C'
+phone: +593 98 31 30 284
+email: lacintacorta@gmail.com
+facebook: http://facebook.com/lacintacortaprod
+instagram: https://www.instagram.com/lacintacorta/
+whatsapp: +593 98 31 30 284
 locations:
   - lat: '-27.9654732'
     lng: '153.2432449'
@@ -16,12 +19,6 @@ meta:
   title: Contact Page
 ---
 
-# Example contact form
+# Envíanos un mensaje
 
-This form is setup to use Netlify's form handling:
-
-- the form action is set to the current absolute url: `action: '/contact/'`
-- a name attribute is sent with the form's data `'form-name': 'Contact'`
-- netlify data attributes are added to the form `data-netlify data-netlify-honeypot`
-
-Find out more in the [Netlify Docs](https://www.netlify.com/docs/form-handling/).
+Puedes usar el formulario para enviarnos un mensaje detallado con tus requerimientos.

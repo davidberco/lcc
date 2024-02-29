@@ -1,19 +1,20 @@
 ---
 template: SinglePost
-title: Man
+title: Amelia, cortometraje de ficción
 status: Published
-date: '2018-05-25'
-featuredImage: 'https://ucarecdn.com/bd5d1edc-73be-488a-9d50-8ec28f5ab6a9/'
+date: '2020-04-25'
+featuredImage: 'https://ucarecdn.com/0d890de5-a5c2-4e0c-ba2c-3e62c7b45556/'
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the
   website is completed. You are currently reading text that is written in
   English, not any other language.
+categories:
+  - category: Cine & Audiovisual
 meta:
   description: test meta description
   title: test meta title
 ---
 
-This is placeholder text that our web designers put here to make sure words appear properly on your website. This text is going to be replaced once the website is completed. You are currently reading text that is written in English, not any other language.
-
-Be careful not to waste too much time reading placeholder text! This text isn’t going to remain here because it doesn't pertain to the website. This paragraph has been copied from a program that automatically generates paragraphs like this. It is useful for web designers to use placeholder text so they can easily see what different fonts look like on a realistic paragraph.
+Dirigido por Julia Silva, Amelia es un cortometraje que explora el realismo mágico y las historias de amor. Fue filmado en las sierras de Merlo, en la provincia de San Luis, Argentina y estrenado en 2007. Fue la primera producción.
+Para verlo pincha aquí:

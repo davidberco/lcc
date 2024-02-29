@@ -1,58 +1,48 @@
 ---
 template: SinglePost
-title: Chairs
+title: Living Legends
 status: Featured / Published
-date: '2018-03-27'
-featuredImage: >-
-  https://ucarecdn.com/f540281a-41cf-4bfa-8181-b172e2655fba/-/crop/1632x1777/0,672/-/preview/
+date: '2020-03-27'
+featuredImage: 'https://ucarecdn.com/a7e0680a-c2db-45aa-9fed-82856fc06847/'
 excerpt: >-
   Etiam ac quam eget lectus venenatis ullamcorper sit amet non arcu. Nullam
   interdum arcu vitae augue pulvinar sodales. Sed non dui diam. Quisque lectus
   est, lobortis ac efficitur vitae, posuere a mauris. Phasellus ac dui
   pellentesque, lacinia risus ut, imperdiet eros.
 categories:
-  - category: News
+  - category: Cultura & Educación
 meta:
   canonicalLink: ''
   description: test meta description
   noindex: false
   title: test meta title
 ---
-Paragraphs are separated by a blank line.
 
-![Test Image](https://ucarecdn.com/ac9898a0-413a-467b-95fa-0a9959c30710/)
+#### Memoria en movimiento (4 ediciones y vamos por más)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Id64silK_7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Son Talleres itinerantes que mezclan tradición oral con cultura digital. Jóvenes de comunidades diversas participan en talleres de cine y animación stopmotion. Recolectan historias, costumbres y leyendas de su pueblo a través de entrevistas a los abuelos y luego las transforman en películas animadas creadas con diversos materiales. Trabajamos con programas open source y metodologías de enseñanza no verticales. Hemos realizado nuestras giras en Ecuador, Colombia, Chile, Francia, Alemania, Estonia, Portugal, Italia y próximamente estaremos en Argentina.
 
-The second paragraph. This is placeholder text that our web designers put here to make sure words appear properly on your website. _Italic_, **bold**, and `monospace`.
+Puedes mirar nuestros cortos y nuestros recorridos en [www.livinglegendsproject.org](http://www.livinglegendsproject.org)
 
-### Unordered lists:
+El proyecto inició en 2016 en una co creación de La Cinta Corta y Movimiento e.V a la que luego se han ido sumando otras organizaciones de distintas partes del mundo. Actualmente seguimos en actividad y esperamos tener un depósito de historias de muchas partes del mundo que reflejen la diversidad cultural que tenemos en el mundo y la preserven.
 
-* this one
-* that one
-* the other one
+##### Auspiciado por:
 
-### Ordered lists:
+- Erasmus Más es un fondo de la Unión Europea (org internacional)
+- Goethe Institute / Asociación (org Internacional-Ecuador)
+- Global Green Grant Found
+- Municipio de Quito Público
 
-1. first item
-2. second item
-3. third item
+![Livinglegends](static/images/LivingLegends0.jpg 'Livinglegends')
 
-> Block quotes are written like so.
->
-> They can span multiple paragraphs,
-> if you like.
+![Livinglegends](static/images/LivingLegends1.jpg 'Livinglegends')
 
-## Heading 2
+![Livinglegends](static/images/LivingLegends2.jpg 'Livinglegends')
 
-# Heading 1
+![Livinglegends](static/images/LivingLegends3.jpg 'Livinglegends')
 
-## Heading 2
+![Livinglegends](static/images/LivingLegends4.jpg 'Livinglegends')
 
-### Heading 3
+![Livinglegends](static/images/LivingLegends6.jpg 'Livinglegends')
 
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Id64silK_7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->

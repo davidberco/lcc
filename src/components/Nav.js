@@ -71,8 +71,7 @@ export class Navigation extends Component {
             <Logo />
           </Link>
           <div className="Nav--Links">
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/components/">Components</NavLink>
+            {/* <NavLink to="/">Inicio</NavLink> */}
             <div
               className={`Nav--Group ${
                 this.state.activeSubNav === 'posts' ? 'active' : ''
@@ -92,11 +91,11 @@ export class Navigation extends Component {
                 aria-label="Navigation"
                 role="button"
               >
-                Blog
+                Proyectos
                 <div className="Nav--GroupLinks">
-                  <NavLink to="/blog/" className="Nav--GroupLink">
+                  {/* <NavLink to="/blog/" className="Nav--GroupLink">
                     All Posts
-                  </NavLink>
+                  </NavLink> */}
                   {subNav.posts.map((link, index) => (
                     <NavLink
                       to={link.slug}
@@ -109,8 +108,10 @@ export class Navigation extends Component {
                 </div>
               </span>
             </div>
-            <NavLink to="/default/">Default</NavLink>
-            <NavLink to="/contact/">Contact</NavLink>
+            <NavLink to="/quienes-somos/">Quienes Somos</NavLink>
+            {/* <NavLink to="/invertir/">Como Invertir</NavLink> */}
+            {/* <NavLink to="/blog/">Blog</NavLink> */}
+            <NavLink to="/contact/">Contacto</NavLink>
           </div>
           <button
             className="Button-blank Nav--MenuButton"

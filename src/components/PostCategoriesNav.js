@@ -6,9 +6,9 @@ import './PostCategoriesNav.css'
 
 const PostCategoriesNav = ({ categories, enableSearch }) => (
   <div className="PostCategoriesNav">
-    <Link className="NavLink" exact="true" to={`/blog/`}>
-      All
-    </Link>
+    {/* <Link className="NavLink" exact="true" to={`/blog/`}>
+      Todos
+    </Link> */}
     {categories.map((category, index) => (
       <Link
         exact="true"

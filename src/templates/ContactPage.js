@@ -1,11 +1,11 @@
 import React from 'react'
-import { MapPin, Smartphone, Mail } from 'react-feather'
+import { MapPin, Smartphone, Mail, Facebook, Instagram, PhoneCall, Phone } from 'react-feather'
 import { graphql } from 'gatsby'
 
 import PageHeader from '../components/PageHeader'
 import FormSimpleAjax from '../components/FormSimpleAjax'
 import Content from '../components/Content'
-import GoogleMap from '../components/GoogleMap'
+// import GoogleMap from '../components/GoogleMap'
 import Layout from '../components/Layout'
 import './ContactPage.css'
 
@@ -18,6 +18,9 @@ export const ContactPageTemplate = ({
   address,
   phone,
   email,
+  facebook,
+  instagram,
+  whatsapp,
   locations
 }) => (
   <main className="Contact">
@@ -53,6 +56,23 @@ export const ContactPageTemplate = ({
                 <Mail /> {email}
               </a>
             )}
+            {facebook && (
+              <a className="Contact--Details--Item" href={`${facebook}`}
+              target="_blank">
+                <Facebook /> {`La Cinta Corta`}
+              </a>
+            )}
+            {instagram && (
+              <a className="Contact--Details--Item" href={`${instagram}`}
+              target="_blank">
+                <Instagram /> {`@‌lacintacorta`}
+              </a>
+            )}
+            {/* {whatsapp && (
+              <a className="Contact--Details--Item" href={`https://wa.me/+593983130284`}>
+                <PhoneCall /> {phone}
+              </a>
+            )} */}
           </div>
         </div>
 
@@ -62,7 +82,7 @@ export const ContactPageTemplate = ({
       </div>
     </section>
 
-    <GoogleMap locations={locations} />
+    {/* <GoogleMap locations={locations} /> */}
   </main>
 )
 
@@ -90,6 +110,9 @@ export const pageQuery = graphql`
         address
         phone
         email
+        facebook
+        instagram
+        whatsapp
         locations {
           mapLink
           lat

@@ -1,19 +1,21 @@
 ---
 template: SinglePost
-title: Yellow Van
+title: Fiebre de Motocicleta, largometraje (coproducción en post producción)
 status: Published
-date: '2018-05-25'
-featuredImage: 'https://ucarecdn.com/a7f36998-7a41-4a63-b0b1-91ef46cd638b/'
+date: '2020-04-29'
+featuredImage: 'https://ucarecdn.com/c8ca59d2-7eea-4a70-be1e-ac971bcbc3eb/'
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the
   website is completed. You are currently reading text that is written in
   English, not any other language.
+categories:
+  - category: Cine & Audiovisual
 meta:
   description: test meta description
   title: test meta title
 ---
 
-This is placeholder text that our web designers put here to make sure words appear properly on your website. This text is going to be replaced once the website is completed. You are currently reading text that is written in English, not any other language.
+Largometraje de Emmanuel Blanchard, producido por Julia Silva que se encuentra actualmente en etapa de post producción. Ha recibido el apoyo para desarrollo y producción del Instituto de cine del Ecuador y ha participado en las residencias: Acampadoc y Bolivia Lab. Es una coproducción entre LA República Invisible y La Cinta Corta.
 
-Be careful not to waste too much time reading placeholder text! This text isn’t going to remain here because it doesn't pertain to the website. This paragraph has been copied from a program that automatically generates paragraphs like this. It is useful for web designers to use placeholder text so they can easily see what different fonts look like on a realistic paragraph.
+Conoce más de nuestro primer largometraje aqui: [www.fiebredemotocileta.com](http://www.fiebredemotocileta.com)

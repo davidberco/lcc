@@ -4,7 +4,7 @@
   top: 0;
   z-index: 2;
   border-bottom: 1px solid var(--lightGrey);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.025);
+  box-shadow: 0 1px 5px rgba(54, 54, 54, 0.35);
 }
 
 .Nav--Container {
@@ -18,19 +18,22 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  flex-grow: 1;
 }
 
 .Nav--Links > * + * {
-  margin-left: 1rem;
+  margin-left: 3rem;
+  
 }
 
 .Nav .Logo {
-  margin-right: 3rem;
+  margin-right: 4rem;
   position: relative;
 }
 
 .Nav--MenuButton {
   display: none !important;
+  color: var(--primary);
 }
 
 .NavLink {
