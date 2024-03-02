@@ -1,15 +1,19 @@
 import React, { Fragment } from 'react'
+import Helmet from 'react-helmet'
+
 import _get from 'lodash/get'
 import { Link, graphql } from 'gatsby'
 import { ChevronLeft } from 'react-feather'
 
 import Content from '../components/Content'
 import Layout from '../components/Layout'
+import Image from '../components/Image'
 import './SinglePost.css'
 
 export const SinglePostTemplate = ({
   title,
   date,
+  featuredImage,
   body,
   nextPostURL,
   prevPostURL,
@@ -21,6 +25,19 @@ export const SinglePostTemplate = ({
       itemScope
       itemType="http://schema.org/BlogPosting"
     >
+    <Helmet>
+      <title>{title}</title>
+    </Helmet>
+
+      {featuredImage && (
+        <Image
+          background
+          className="SinglePost--BackgroundImage"
+          src={featuredImage}
+          alt={title}
+        />
+      )}
+
       <div className="container skinny">
         <Link className="SinglePost--BackButton" to="/blog/">
           <ChevronLeft /> BACK
@@ -126,6 +143,7 @@ export const pageQuery = graphql`
         categories {
           category
         }
+        featuredImage
       }
     }
 

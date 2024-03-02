@@ -109,7 +109,7 @@ export class Navigation extends Component {
               </span>
             </div>
             <NavLink to="/quienes-somos/">Quienes Somos</NavLink>
-            {/* <NavLink to="/invertir/">Como Invertir</NavLink> */}
+            <NavLink to="/invertir/">Invierte en Cultura</NavLink>
             {/* <NavLink to="/blog/">Blog</NavLink> */}
             <NavLink to="/contact/">Contacto</NavLink>
           </div>

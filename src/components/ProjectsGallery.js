@@ -30,9 +30,9 @@ const icon3 = './images/teather.png';
   return (
     <div className="section">
       <div className="taCenter">
-        <h2 className=''>
-        Visita Nuestros Proyectos
-        </h2>
+        <h3 className=''>
+        Te invitamos a conocer las tres áreas que manejamos: 
+        </h3>
       </div>
       <div className='member-container'>
         <div className="member-card">

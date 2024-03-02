@@ -17,22 +17,24 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
     
     <div className="section">
       <div className="container">
-        <h1 className='taCenter'>
-          Somos una productora cultural para Ecuador y el mundo
-        </h1>
-          <h4 className='taCenter'
+          <h2 className='taCenter'
           style={{ marginLeft:'4em', marginRight:'4em' }}>
-          El objetivo es crear y producir, acompañar y difundir  proyectos que promuevan las artes desde un país pequeño pero lleno de diversidad artística y cultural.
-          </h4>
+          Somos una productora y fundación. Gestionamos proyectos culturales, artísticos, educativos, en cine y artes escénicas. 
+          Nuestra sede es Ecuador, un país pequeño en Latinoamérica, aunque megadiverso y multicultural. Desde aquí trabajamos en proyectos locales e internacionales.
+          </h2>
       </div>
     </div>
     <ProjectGallery />
+    
     <section className="section">
       <div className="container">
         <Content source={body} />
       </div>
     </section>
-    {/* <section className="section taCenter">
+    
+    <section className="section taCenter">
+      <h2>Noticias</h2>
+      <p>Section to develop...</p>
       <div
         className="Button"
         onClick={``}
@@ -42,7 +44,8 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
       >
         ver proyectos
       </div>
-    </section> */}
+    </section>
+    
   </main>
 )
 
