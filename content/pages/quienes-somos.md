@@ -2,7 +2,7 @@
 template: DefaultPage
 slug: quienes-somos
 title: Quienes Somos
-featuredImage: https://images.unsplash.com/photo-1643409759748-b53f74108370?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80
+featuredImage: '../images/banner4.png'
 subtitle:
 accordion:
   - description: Crear, gestionar, desarrollar, producir, coproducir, distribuir y formar en proyectos e investigaciones culturales, cinematográficas, escénicas, musicales y artísticas en general.
@@ -24,26 +24,64 @@ meta:
 
 # La Cinta Corta
 
-Somos una productora cultural con más de 15 años de experiencia que trabajamos desde Quito, Ecuador. Somos también una organización social (fundación) sin fines de lucro. Tenemos como ámbito de acción: emprendimientos, producción, difusión, distribución, formación alternativa, intercambio cultural y disfrute de bienes y servicios culturales.a nivel nacional. Además, podemos operar a nivel internacional dentro de las leyes que rigen a las fundaciones.
+Es una productora cultural ecuatoriana con más de quince años de experiencia. Somos también, desde 2023, una Fundación Cultural sin fines de lucro. Tenemos como ámbito de acción tres áreas: Cultura-Educación, Cine-Audiovisual y Artes Escénicas. Realizamos emprendimientos, producción, difusión, distribución, formación alternativa, intercambio cultural y disfrute de bienes y servicios culturales, a nivel nacional. Además, podemos operar a nivel internacional dentro de las leyes que rigen a las fundaciones.
 
-### Nuestros objetivos son:
+### Misión
 
-Crear, gestionar, desarrollar, producir, coproducir, distribuir y formar en proyectos e investigaciones culturales, cinematográficas, escénicas, musicales y artísticas en general.
+Somos una fundación que gestiona proyectos culturales y educativos en cine y artes escénicas.
+
+### Visión
+
+Crear y producir proyectos con enfoque global de cine y artes escénicas de calidad que tengan un verdadero impacto social, educativo y artístico, convirtiéndose en referentes del sector.
+
+### Valores
+
+- Compromiso social.
+- Intercambio sociocultural.
+- Horizontalidad organizativa.
+- Profesionalismo.
+- Honestidad.
+- Creatividad.
 
 ### El equipo está conformado por:
 
 #### **Julia Silva**
 
-Directora y productora general
+Directora, creativa y productora general
+IG @juliasilvapym
 
 #### **Emmanuel Blanchard**
 
 Productor y creativo
+IG: @colorcorrectgradingpolish
 
 #### **Anahí Silva**
 
 Socia y creativa
+IG @anahi_spym
 
 #### **María Eugenia Paz y Miño**
 
 Antropóloga y escritora
+IG @mariapazymino
+
+(Fotos que vayan todas en ByN)
+
+# Nuestra biografía
+
+La Cinta Corta es una productora cultural ecuatoriana que trabaja en tres áreas:
+Cultura-Educación, Cine-Audiovisual, Artes Escénicas. Inició en el 2007 como festival itinerante de cine de cortometrajes latinoamericanos. Durante siete años realiza proyecciones, en pueblos y comunidades de países diversos de Latinoamérica, acompañados de charlas y encuentros de jóvenes realizadores. La Cinta Corta fue creada por Julia Silva (ecuatoriana-argentina, cineasta y actriz ), quien es responsable del concepto. Luego, bajo el nombre de LCC, se empezó a producir y coproducir proyectos diversos con impacto social y artístico-cultural.
+
+Nuestros proyectos más destacados son: “Festival Itinerante La Cinta Corta”, que ha
+recorrido provincias del Ecuador, Bolivia, Perú y Argentina, proyectando cortos
+latinoamericanos de 2007 a 2012. “CineCita la Mirada de Ella”, gira internacional de
+talleres de cine documental y proyecciones, dirigido a mujeres de la región andina
+(Ecuador, Perú, Bolivia) 2010/2011. Producción y distribución del Cortometraje
+“CRISÁLIDA” 2017 dirigido por Julia Silva. Ganador a Mejor actor ecuatoriano, festival de
+cine La Orquídea y representante de la Academia de Cine del Ecuador en la gira
+internacional de Cortometrajes realizados por Mujeres directoras 2021. “LIVING
+LEGENDS, Memoria en movimiento”, gira de talleres y producción de cortos animados,
+inspirados en la tradición oral y realizado en Ecuador, Colombia, Estonia, Alemania, Francia, Argentina; financiado por la Unión Europea, GGF y fondos nacionales en cada país. Ediciones desde 2017, 2018, 2019, 2022, 2023.
+
+Somos productores y distribuimos los cortometrajes “Diferencias”, ficción de quince minutos, que ha participado en más de veinte festivales alrededor del mundo y estrenado en 2019; y “Matilde”, documental de ocho minutos, ganador a Mejor cortometraje documental
+ecuatoriano, dentro del Festival Internacional de Cine de Guayaquil; estrenado en 2020. Ambos trabajos dirigidos por Emmanuel Blanchard. Produjimos en Ecuador el proyecto internacional 30, Bosquejo, una residencia teatral y montaje que se realizó en el Teatro México, en septiembre de 2023.

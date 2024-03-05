@@ -1,8 +1,8 @@
 ---
 template: DefaultPage
-slug: defaultPage
+slug: invertir
 title: Inversiones / Donaciones
-featuredImage: https://ucarecdn.com/7ec2ff8c-5ef7-4dd8-b551-baa44d114cc3/
+featuredImage: https://images.unsplash.com/photo-1643409759748-b53f74108370?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80
 meta:
   description: test meta description
   title: Como Invertir

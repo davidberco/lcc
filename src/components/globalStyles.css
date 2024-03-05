@@ -143,6 +143,9 @@ blockquote {
 .taRight {
   text-align: right;
 }
+.taJustify {
+  text-align: justify;
+}
 
 @keyframes fadeIn {
   from {
@@ -279,4 +282,11 @@ blockquote {
 .Button-light:focus {
   opacity: 0.90;
   outline: none;
+}
+
+/* Banner Styles */
+
+.banner {
+  background-size: cover;
+  text-align: right;
 }

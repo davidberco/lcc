@@ -2,7 +2,7 @@
 template: SinglePost
 title: El Amor es un FrancoTirador
 status: Featured / Published
-date: '2020-05-15'
+date: '2024-02-01'
 featuredImage: 'https://ucarecdn.com/9349b26a-4327-4d3c-af3d-e424561e1c11/'
 excerpt: >-
   Etiam ac quam eget lectus venenatis ullamcorper sit amet non arcu. Nullam
@@ -18,5 +18,16 @@ meta:
   title: test meta title
 ---
 
-Apoyo para la producción de esta obra de creación colectiva estrenada en 2019
-en Quito y con tres temporadas: Casa Mitómana, El Útero y la galería Pentasiete.
+Apoyo para la producción de esta obra de creación colectiva estrenada en 2019 en Quito y con tres temporadas: Casa Mitómana, El Útero y la galería Pentasiete.
+
+Inspirada en el texto _El Amor es Un franco Tirador_, de la autora argentina Lola Arias.
+
+- Teatro - Performance
+- 40min
+- Estreno 2019
+- Elenco:
+  Julia Silva
+  Javier Ordoñes
+  Claudia Roggiero
+  Alejandra Coral
+  Tomás Flores

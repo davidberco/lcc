@@ -2,7 +2,7 @@
 template: ContactPage
 slug: contact
 title: Contáctanos
-featuredImage: https://images.unsplash.com/photo-1643409759748-b53f74108370?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80
+featuredImage: '../images/banner6.png'
 subtitle:
 address: 'Av. Portugal E10-109 Edif. Oporto 2C'
 phone: +593 98 31 30 284
@@ -21,4 +21,4 @@ meta:
 
 # Envíanos un mensaje
 
-Puedes usar el formulario para enviarnos un mensaje detallado con tus requerimientos.
+Escríbenos y envía un mensaje a través del formulario. Déjanos tus comentarios o contáctanos para más información.

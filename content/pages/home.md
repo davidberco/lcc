@@ -2,7 +2,7 @@
 template: HomePage
 slug: ''
 title: 'La Cinta Corta'
-featuredImage: './images/banner.jpg'
+featuredImage: './images/banner2.png'
 subtitle: ''
 meta:
   description: Somos una productora cultural para Ecuador y el mundo

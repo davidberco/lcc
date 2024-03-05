@@ -14,16 +14,22 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
       subtitle={subtitle}
       backgroundImage={featuredImage}
     />
-    
+
     <div className="section">
       <div className="container">
-          <h2 className='taCenter'
-          style={{ marginLeft:'4em', marginRight:'4em' }}>
-          Somos una productora y fundación. Gestionamos proyectos culturales, artísticos, educativos, en cine y artes escénicas. 
-          Nuestra sede es Ecuador, un país pequeño en Latinoamérica, aunque megadiverso y multicultural. Desde aquí trabajamos en proyectos locales e internacionales.
-          </h2>
+        <h2 className='taCenter'
+        style={{ marginLeft:'2em', marginRight:'2em' }}>
+        Somos una productora y fundación. Gestionamos proyectos culturales, artísticos, educativos, en cine y artes escénicas.</h2>
+        <h3 className="taCenter">Nuestra sede es Ecuador, un país pequeño en Latinoamérica, aunque megadiverso y multicultural. Desde aquí trabajamos en proyectos locales e internacionales.
+        </h3>
       </div>
     </div>
+    
+    {/* Banner by BercoStudio */}
+    {/* <div className="banner">
+      <img className="Image" src={banner2} alt=''></img>
+    </div> */}
+
     <ProjectGallery />
     
     <section className="section">

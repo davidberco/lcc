@@ -10,11 +10,14 @@ const PageHeader = ({
   subtitle,
   backgroundImage,
   large,
-  className = ''
+  white,
+  className = '',
+  classNameColor = ''
 }) => {
   if (large) className += ' PageHeader-large'
+  if (white) classNameColor += ' PageHeader-white'
   return (
-    <div className={`PageHeader relative ${className}`}>
+    <div className={`PageHeader relative ${className} ${classNameColor}`}>
       {backgroundImage && (
         <Image
           background

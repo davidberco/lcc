@@ -1,10 +1,9 @@
 ---
 template: SinglePost
-title: Crisálida, Cortometraje de ficción
+title: Amelia, cortometraje de ficción
 status: Published
-date: '2020-04-26'
-featuredImage: >-
-  https://ucarecdn.com/304c2792-64b5-413f-83bb-2f619d679372/
+date: '2024-02-01'
+featuredImage: 'https://ucarecdn.com/0d890de5-a5c2-4e0c-ba2c-3e62c7b45556/'
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the
@@ -17,5 +16,6 @@ meta:
   title: test meta title
 ---
 
-Estrenado en 2017, Ganador a mejor actor Ecuatoriano, festival de cine La Orquídea y representante de la Academia de cine del Ecuador en la gira internacional de Cortometrajes realizados por Mujeres directoras 2021. fue dirigido también por Julia Silva
-Para verlo Pincha Aquí:
+Primer cortometraje dirigido por Julia Silva. Amelia explora el realismo mágico y las historias de amor. Fue filmado en las sierras de Merlo, en la provincia de San Luis, Argentina y estrenado en 2007.
+
+(me falta el afiche)
