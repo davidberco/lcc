@@ -2,7 +2,6 @@
 template: BlogIndex
 title: Cine & Audiovisual
 subtitle: ''
-featuredImage: >-
-  https://images.unsplash.com/photo-1643409759748-b53f74108370?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80
+featuredImage: https://ucarecdn.com/3466166f-c12f-46fa-a55e-015c6d67d4dd/videoproductionandlightingset.jpg
 index: 2
 ---

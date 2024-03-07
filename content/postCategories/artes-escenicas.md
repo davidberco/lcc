@@ -2,6 +2,6 @@
 template: BlogIndex
 title: Artes Escénicas
 subtitle: ''
-featuredImage: https://images.unsplash.com/photo-1643409759748-b53f74108370?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80
+featuredImage: https://ucarecdn.com/f572abc3-b997-403f-8199-e4566c3cc435/DanceBlackCanvas.jpg
 index: 1
 ---

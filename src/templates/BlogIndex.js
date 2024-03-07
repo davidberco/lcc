@@ -64,6 +64,7 @@ export const BlogIndexTemplate = ({
       return (
         <main className="Blog">
           <PageHeader
+            white
             title={title}
             subtitle={subtitle}
             backgroundImage={featuredImage}

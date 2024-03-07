@@ -25,6 +25,7 @@ export const ContactPageTemplate = ({
 }) => (
   <main className="Contact">
     <PageHeader
+    white
       title={title}
       subtitle={subtitle}
       backgroundImage={featuredImage}

@@ -1,44 +1,17 @@
 ---
 template: DefaultPage
 slug: invertir
-title: Inversiones / Donaciones
-featuredImage: https://images.unsplash.com/photo-1643409759748-b53f74108370?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80
+title: Invierte en Cultura
+featuredImage: https://ucarecdn.com/e691d85d-8323-4fd4-b804-567fe329d372/lightbulbwithcoins.jpg
 meta:
   description: test meta description
   title: Como Invertir
 ---
 
-## This is the DefaultPage template
+Si quieres apoyar los proyectos que hacemos, crees que podemos ser parte de los tuyos, tienes una empresa y quieres apostar por el trabajo cultural, obtener publicidad, así como beneficiarte de una reducción de impuestos de hasta un 150% por tu apoyo. Ponte en contacto con nosotros.
 
-Paragraphs are separated by a blank line.
+(Aqui quisiera citar algún texto importante sobre la inversión en cultura como beneficiosa.. estoy buscando ) y podríamos acompañar esto con un gráfico de firma de convenio una mano con un esfero firmando en una hoja, como los gráficos del inicio que van a las secciones.
 
-The second paragraph. This is placeholder text that our web designers put here to make sure words appear properly on your website. _Italic_, **bold**, and `monospace`.
+### Escríbenos:
 
-### Unordered lists:
-
-- this one
-- that one
-- the other one
-
-### Ordered lists:
-
-1.  first item
-1.  second item
-1.  third item
-
-> Block quotes are written like so.
->
-> They can span multiple paragraphs,
-> if you like.
-
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
+lacintacorta@gmail.com - Asunto: Donación - Inversión - proyecto

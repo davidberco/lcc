@@ -2,7 +2,8 @@
 template: ContactPage
 slug: contact
 title: Contáctanos
-featuredImage: '../images/banner6.png'
+featuredImage: https://ucarecdn.com/892256ff-c73e-401c-a575-c40adba98f05/typewriter.jpg
+# featuredImage: '../images/banner6.png'
 subtitle:
 address: 'Av. Portugal E10-109 Edif. Oporto 2C'
 phone: +593 98 31 30 284

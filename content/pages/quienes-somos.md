@@ -2,7 +2,8 @@
 template: DefaultPage
 slug: quienes-somos
 title: Quienes Somos
-featuredImage: '../images/banner4.png'
+featuredImage: https://ucarecdn.com/167b8017-8fee-49a3-b2e6-d8b8de1b15be/silhouettescenescameraman.jpg
+# featuredImage: '../images/banner4.png'
 subtitle:
 accordion:
   - description: Crear, gestionar, desarrollar, producir, coproducir, distribuir y formar en proyectos e investigaciones culturales, cinematográficas, escénicas, musicales y artísticas en general.
