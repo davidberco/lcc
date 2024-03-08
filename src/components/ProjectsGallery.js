@@ -24,14 +24,14 @@ function ProjectsGallery () {
 console.log(data.allMarkdownRemark.nodes.frontmatter)
 
 // Old Set of icons
-// const icon1 = './images/people.png';
-// const icon2 = './images/video-camera.png';
-// const icon3 = './images/teather.png';
+const icon1 = './images/people.png';
+const icon2 = './images/video-camera.png';
+const icon3 = './images/teather.png';
 
 // New Set of Icons
-const icon1 = './images/idea.svg';
-const icon2 = './images/movie-camera.svg';
-const icon3 = './images/stage.svg';
+// const icon1 = './images/idea.svg';
+// const icon2 = './images/movie-camera.svg';
+// const icon3 = './images/stage.svg';
 
   return (
     <div className="section">
