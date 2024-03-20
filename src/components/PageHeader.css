@@ -13,17 +13,9 @@
 }
 
 .PageHeader-white {
-  & .container .relative {
-    left: 50%;
-  }
-
-  .PageHeader--Title {
-    color: var(--white);
-    text-align: right;
+  & .PageHeader--Title {
     border-bottom: 2px solid var(--lightGrey);
     width: fit-content;
-    position: relative;
-    left: 45vw
   }
 }
 
@@ -31,7 +23,6 @@
   color: var(--white);
   font-size: 6rem;
   margin-bottom: 0;
-  text-align: center;
   text-shadow: 1px 1px 1px rgb(57, 57, 57);
 }
 
@@ -44,6 +35,9 @@
 
 .PageHeader .container {
   animation: fadeIn 0.5s ease-out;
+  display: flex;
+  justify-content: flex-end;
+  
 }
 
 @media (max-width: 600px) {

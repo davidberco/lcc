@@ -8,6 +8,23 @@ meta:
   title: Como Invertir
 ---
 
+# Somos una productora y fundación.
+
+# SOMOS UNA PRODUCTORA Y FUNDACIÓN.
+
+## Gestionamos proyectos culturales, artísticos, educativos, en cine y artes escénicas.
+
+### Nuestra sede es Ecuador, un país pequeño en Latinoamérica, aunque megadiverso y multicultural. Desde aquí trabajamos en proyectos locales e internacionales.
+
+#### Te invitamos a conocer las tres áreas que manejamos:
+
+The second paragraph. This is placeholder text that our web designers put here to make sure words appear properly on your website. _Italic_, **bold**.
+
+<br/>
+<br/>
+<br/>
+<hr />
+
 ## This is the DefaultPage template
 
 Paragraphs are separated by a blank line.

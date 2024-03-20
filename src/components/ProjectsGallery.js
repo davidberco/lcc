@@ -35,11 +35,13 @@ const icon3 = './images/teather.png';
 
   return (
     <div className="section">
-      <div className="taCenter">
-        <h1 className=''>
-        Te invitamos a conocer las tres áreas que manejamos: 
-        </h1>
+    {/* <div className="container">
+      <div className="taCenter upperCaseText smallCaps">
+        <h2>
+        Las tres áreas que manejamos
+        </h2>
       </div>
+    </div> */}
       <div className='member-container'>
         
         <div className="member-card">

@@ -3,6 +3,7 @@
   --secondary: #000;
   --lightGrey: rgb(245, 245, 245);
   --midGrey: #cacaca;
+  --selectedTextColor: #146b9481;
   --darkGrey: #272727;
   --danger: #ff3d3d;
   --white: #fff;
@@ -24,7 +25,8 @@
 }
 
 ::selection {
-  background: var(--midGrey);
+  background: var(--selectedTextColor);
+  
 }
 
 html {
@@ -148,6 +150,14 @@ blockquote {
   text-align: justify;
 }
 
+.upperCaseText {
+  text-transform: uppercase;
+}
+
+.smallCaps {
+  font-variant-caps: all-small-caps;
+}
+
 /* Animations by berco */
 
 @keyframes fadeIn {
@@ -163,7 +173,7 @@ blockquote {
 .section {
   width: 100%;
   padding: 5rem 0;
-  border-bottom: 1px solid #f1f1f1;
+  /* border-bottom: 1px solid #f1f1f1; */
 }
 .section:last-child {
   border: 0;
@@ -201,6 +211,12 @@ blockquote {
 }
 .container.skinnier {
   max-width: 555px;
+}
+
+/* Paragraph styles by Berco */
+
+.bigTitle {
+  padding: 2rem;
 }
 
 /* Buttons */
@@ -293,6 +309,14 @@ blockquote {
 /* Banner Styles */
 
 .banner {
-  background-size: cover;
-  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & .container {
+    position: absolute;
+    padding: 2rem;
+    & h2 {
+      color: var(--white);
+    }
+  }
 }

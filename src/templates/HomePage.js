@@ -9,27 +9,42 @@ import Layout from '../components/Layout'
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body, banner2 }) => (
   <main className="Home">
     <PageHeader
-      large
-      title={title}
+      large      
+      // title={title}
       subtitle={subtitle}
       backgroundImage={featuredImage}
     />
 
     <div className="section">
       <div className="container">
-        <h1 className='taCenter'>
-        Somos una productora y fundación. Gestionamos proyectos culturales, artísticos, educativos, en cine y artes escénicas.</h1>
-        <h2 className="taCenter">Nuestra sede es Ecuador, un país pequeño en Latinoamérica, aunque megadiverso y multicultural. Desde aquí trabajamos en proyectos locales e internacionales.
+        <h1 className='taCenter upperCaseText bigTitle'>
+        Somos una productora y fundación
+        </h1>
+      </div>
+      <div className="container">
+        <h2 className="taCenter upperCaseText smallCaps">
+          Nuestra sede es Ecuador, un país pequeño en Latinoamérica, aunque megadiverso y multicultural.
+        </h2>
+      </div>
+      <div className="container">
+        <h2 className="taCenter upperCaseText smallCaps">
+          Desde aquí trabajamos en proyectos locales e internacionales.
         </h2>
       </div>
     </div>
-
-    <ProjectGallery />
-    
-     {/* Banner by BercoStudio */}
-     <div className="banner">
+ {/* Banner by BercoStudio */}
+    <div className="banner">
+      <div className="container">
+        <h2 className="taCenter upperCaseText">
+        GESTIONAMOS PROYECTOS CULTURALES, ARTÍSTICOS, EDUCATIVOS, EN CINE Y ARTES ESCÉNICAS.
+        </h2>
+      </div>
       <img className="Image" src={banner2} alt='banner2'></img>
     </div>
+    <ProjectGallery />
+    
+
+    
 
     <section className="section">
       <div className="container">

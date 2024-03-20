@@ -39,9 +39,9 @@ export const SinglePostTemplate = ({
       )}
 
       <div className="container skinny">
-        <Link className="SinglePost--BackButton" to="/blog/">
+        {/* <Link className="SinglePost--BackButton" to="/blog/">
           <ChevronLeft /> ATRAS
-        </Link>
+        </Link> */}
         <div className="SinglePost--Content relative">
           <div className="SinglePost--Meta">
             {date && (
@@ -86,7 +86,7 @@ export const SinglePostTemplate = ({
                 className="SinglePost--Pagination--Link prev"
                 to={prevPostURL}
               >
-                Previous Post
+                Anterior
               </Link>
             )}
             {nextPostURL && (

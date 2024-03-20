@@ -7,19 +7,21 @@
 }
 
 .SinglePost--BackButton {
-  color: white;
+  color: var(--lightGrey);
   position: relative;
   display: flex;
   align-items: center;
   font-weight: 600;
   text-decoration: none;
   letter-spacing: 0.1em;
+  text-shadow: 1px 2px 3px var(--darkGrey);
 }
 
 .SinglePost--BackButton svg {
   transition: transform 0.2s ease-out;
   transform: translateX(0);
   height: 1.2em;
+  
 }
 
 .SinglePost--BackButton:hover svg,
@@ -31,6 +33,8 @@
   background: white;
   margin-top: 30rem;
   padding: 8rem 8rem 4rem 8rem;
+  border: 1px solid var(--midGrey);
+  box-shadow: 0px 2px 4px var(--midGrey);
 }
 
 @media screen and (max-width: 750px) {

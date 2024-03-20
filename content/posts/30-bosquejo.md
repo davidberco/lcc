@@ -3,7 +3,7 @@ template: SinglePost
 title: 30, Bosquejo (Residencia y montaje teatral)
 status: Published
 date: '2024-02-01'
-featuredImage: 'https://ucarecdn.com/57002902-e8b3-4315-9995-beb637b29128/'
+featuredImage: 'https://ucarecdn.com/66bdd413-be7c-41b0-afb5-60d096db9c60/30bosquejofoto.JPG'
 excerpt: This is an excerpt of Post Two
 categories:
   - category: Artes Escénicas
@@ -33,10 +33,12 @@ Martes 29 de agosto, a las 19hs, en el Auditorio de la Alianza Francesa, Quito
 
 Mira el documental que se realizó sobre la actividad:
 
-https://www.youtube.com/watch?v=WI4beMvRwQ8
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WI4beMvRwQ8?si=vy9PsXh-DkosAa_1&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<br />
 
 (Por favor descargar imágenes desde aquí:)
 
 https://drive.google.com/drive/folders/1U7pbPyM6_VYVLWOSPjxZGKmyhrfvSr_S?usp=sharing
 
-WEB: Seleccionar fotos o indicar si van todas.
+webmaster: Seleccionar fotos o indicar si van todas.
