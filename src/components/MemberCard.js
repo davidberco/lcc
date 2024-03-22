@@ -1,16 +1,18 @@
 import React from 'react'
+import { MapPin, Smartphone, Mail, Facebook, Instagram, PhoneCall, Phone } from 'react-feather'
+
+
 import "./MemberCard.css"
 
-function Card({icon}) {
+function Card({icon, name, position, igLink}) {
   return ( 
-    <div>
-      <div className="member">
-        <img 
-          className='icon'
-          src={icon}
-          alt='Image relative to section below'
-        />
-      </div>
+    <div className="member">
+      <img 
+        className='icon'
+        src={icon}
+        alt='icon'
+      />
+      
     </div>
    );
 }

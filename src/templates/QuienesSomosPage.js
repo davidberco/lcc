@@ -5,10 +5,10 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import SVGIcon from '../components/SVGIcon'
-
+import AvatarsGallery from '../components/AvatarsGallery'
 
 // Export Template for use in CMS preview
-export const DefaultPageTemplate = ({
+export const QuienesSomosPageTemplate = ({
   title,
   subtitle,
   featuredImage,
@@ -27,23 +27,27 @@ export const DefaultPageTemplate = ({
       <div className="container">
         <Content source={body} />
       </div>
+      <div className="container">
+        <AvatarsGallery/>
+      </div>
+      
       
     </section>
   </main>
 )
 
-const DefaultPage = ({ data: { page } }) => (
+const QuienesSomosPage = ({ data: { page } }) => (
   <Layout
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}
   >
-    <DefaultPageTemplate {...page.frontmatter} body={page.html} />
+    <QuienesSomosPageTemplate {...page.frontmatter} body={page.html} />
   </Layout>
 )
-export default DefaultPage
+export default QuienesSomosPage
 
 export const pageQuery = graphql`
-  query DefaultPage($id: String!) {
+  query QuienesSomosPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
       html

@@ -310,13 +310,18 @@ blockquote {
 
 .banner {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
+  
   & .container {
     position: absolute;
-    padding: 2rem;
-    & h2 {
+    padding: 0 2rem;
+    
+    & h3 {
+      padding-bottom: 1.5rem;
       color: var(--white);
+      text-shadow: -2px 3px 2px var(--secondary);
+      
     }
   }
 }

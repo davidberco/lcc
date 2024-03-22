@@ -22,37 +22,30 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, banner2
         </h1>
       </div>
       <div className="container">
-        <h2 className="taCenter upperCaseText smallCaps">
-          Nuestra sede es Ecuador, un país pequeño en Latinoamérica, aunque megadiverso y multicultural.
-        </h2>
+        <h3 className="taCenter ">
+          Nuestra sede es Ecuador, un país pequeño en Latinoamérica, aunque megadiverso y multicultural. Desde aquí trabajamos en proyectos locales e internacionales.
+        </h3>
       </div>
-      <div className="container">
-        <h2 className="taCenter upperCaseText smallCaps">
-          Desde aquí trabajamos en proyectos locales e internacionales.
-        </h2>
-      </div>
+      
+      <ProjectGallery />
     </div>
  {/* Banner by BercoStudio */}
     <div className="banner">
       <div className="container">
-        <h2 className="taCenter upperCaseText">
+        <h3 className="taCenter upperCaseText">
         GESTIONAMOS PROYECTOS CULTURALES, ARTÍSTICOS, EDUCATIVOS, EN CINE Y ARTES ESCÉNICAS.
-        </h2>
+        </h3>
       </div>
       <img className="Image" src={banner2} alt='banner2'></img>
     </div>
-    <ProjectGallery />
     
-
-    
-
     <section className="section">
       <div className="container">
         <Content source={body} />
       </div>
     </section>
     
-    <section className="section taCenter">
+    {/* <section className="section taCenter">
       <h2>Noticias</h2>
       <p>Section to develop...</p>
       <div
@@ -64,7 +57,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, banner2
       >
         ver proyectos
       </div>
-    </section>
+    </section> */}
     
   </main>
 )

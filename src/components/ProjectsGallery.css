@@ -4,6 +4,10 @@
   padding-top: 1em;
   padding-bottom: 1em;
   flex-wrap: wrap;
+
+  & h3 {
+    padding-bottom: 1rem;
+  }
 }
 
 .member-card {

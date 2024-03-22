@@ -1,5 +1,5 @@
 ---
-template: DefaultPage
+template: QuienesSomosPage
 slug: quienes-somos
 title: Quienes Somos
 featuredImage: https://ucarecdn.com/167b8017-8fee-49a3-b2e6-d8b8de1b15be/silhouettescenescameraman.jpg
@@ -44,7 +44,7 @@ Crear y producir proyectos con enfoque global de cine y artes escénicas de cali
 - Honestidad.
 - Creatividad.
 
-### El equipo está conformado por:
+<!-- ### El equipo está conformado por:
 
 #### **Julia Silva**
 
@@ -66,7 +66,7 @@ IG @anahi_spym
 Antropóloga y escritora
 IG @mariapazymino
 
-(Fotos que vayan todas en ByN)
+(Fotos que vayan todas en ByN) -->
 
 # Nuestra biografía
 

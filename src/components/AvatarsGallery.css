@@ -1,0 +1,46 @@
+.avatar-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.avatar-card {
+  margin: 1em 1em;
+  width: 330px;
+  display: flex;
+  justify-content: center;
+}
+
+.linksToProjects {
+  text-decoration: none;
+  color: var(--lightGrey)
+}
+
+.avatar {
+  padding-bottom: 2rem;
+  text-align: center;
+  align-items: center;
+  
+}
+
+.avatar img {
+  max-height: 250px;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px var(--midGrey)
+}
+
+.nameMember {
+  padding-top: 1.5rem;
+}
+
+.instagramMember {
+  display: flex;
+  justify-content: center;
+  
+  & svg {
+    padding-right: 0.5rem;
+  }
+}
