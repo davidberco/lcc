@@ -2,7 +2,7 @@
 template: DefaultPage
 slug: invertir
 title: Invierte en Cultura
-featuredImage: https://ucarecdn.com/e691d85d-8323-4fd4-b804-567fe329d372/lightbulbwithcoins.jpg
+featuredImage: https://ucarecdn.com/51d64231-92b4-4e58-b247-725eedcdc8ff/BannerInvierteennosotros.jpg
 meta:
   description: test meta description
   title: Como Invertir

@@ -2,7 +2,7 @@
 template: ContactPage
 slug: contact
 title: Contáctanos
-featuredImage: https://ucarecdn.com/892256ff-c73e-401c-a575-c40adba98f05/typewriter.jpg
+featuredImage: https://ucarecdn.com/e2897aa8-0f27-4a15-9bb7-c2ca91933546/Bannercontactanos.jpg
 # featuredImage: '../images/banner6.png'
 subtitle:
 address: 'Av. Portugal E10-109 Edif. Oporto 2C'

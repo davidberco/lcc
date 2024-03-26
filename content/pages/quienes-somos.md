@@ -2,7 +2,7 @@
 template: QuienesSomosPage
 slug: quienes-somos
 title: Quienes Somos
-featuredImage: https://ucarecdn.com/167b8017-8fee-49a3-b2e6-d8b8de1b15be/silhouettescenescameraman.jpg
+featuredImage: https://ucarecdn.com/8e2186a7-603e-4e44-b4ed-7f97df92b151/bannerquienessomos.jpg
 # featuredImage: '../images/banner4.png'
 subtitle:
 accordion:
