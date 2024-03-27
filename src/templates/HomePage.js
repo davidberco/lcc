@@ -24,12 +24,12 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, video, 
     <div className="section">
       <div className="container">
         <h1 className='taCenter upperCaseText bigTitle'>
-        Somos una productora y fundación
+        {title}
         </h1>
       </div>
       <div className="container">
         <h3 className="taCenter ">
-          Nuestra sede es Ecuador, un país pequeño en Latinoamérica, aunque megadiverso y multicultural. Desde aquí trabajamos en proyectos locales e internacionales.
+          {subtitle}
         </h3>
       </div>
       

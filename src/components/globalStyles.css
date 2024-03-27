@@ -7,7 +7,9 @@
   --darkGrey: #272727;
   --danger: #ff3d3d;
   --white: #fff;
-  --font-primary: 'Open Sans', sans-serif;
+  /* --font-primary: 'Open Sans', sans-serif; */
+  --font-primary: 'Playfair Display', serif;
+  --font-sansSerif: 'Roboto', sans-serif;
   --font-system: system-ui; /* postcssPresetEnv */
   --borderRadius: 3px;
 }
@@ -70,6 +72,8 @@ h5,
 h6 {
   margin: 0;
   margin-bottom: 0.5em;
+  font-family: var(--font-sansSerif);
+  font-weight: 800;
 }
 
 pre {

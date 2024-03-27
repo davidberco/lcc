@@ -37,8 +37,12 @@ Mira el documental que se realizó sobre la actividad:
 
 <br />
 
-(Por favor descargar imágenes desde aquí:)
+![static/images/FB-IG-muro-Bosquejo.jpg](static/images/FB-IG-muro-Bosquejo.jpg)
 
-https://drive.google.com/drive/folders/1U7pbPyM6_VYVLWOSPjxZGKmyhrfvSr_S?usp=sharing
+![static/images/30bosquejo8.JPG](static/images/30bosquejo8.JPG)
 
-webmaster: Seleccionar fotos o indicar si van todas.
+![static/images/30bosquejo4.JPG](static/images/30bosquejo4.JPG)
+
+![static/images/30bosquejo2.JPG](static/images/30bosquejo2.JPG)
+
+![static/images/30bosquejo3.JPG](static/images/30bosquejo3.JPG)

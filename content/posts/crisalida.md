@@ -36,10 +36,16 @@ Montaje: Emanuel Blanchard
 
 Para verlo pincha aquí:
 
-Crisálida (Version Original)
+Crisálida (Version Original):
+
 https://www.youtube.com/watch?v=dgZmzopVnvU&t=0s
 
-Crisálida (English subtitles)
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/dgZmzopVnvU?si=XlTR2knAn9bNXmMP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+
+Crisálida (English subtitles):
+
 https://www.youtube.com/watch?v=_cwtust4tiY&t=0s
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/_cwtust4tiY?si=MRezFtrJJ_Bk_bCb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
 
 (me falta el afiche )

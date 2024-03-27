@@ -2,7 +2,7 @@
 template: QuienesSomosPage
 slug: quienes-somos
 title: Quienes Somos
-featuredImage: https://ucarecdn.com/8e2186a7-603e-4e44-b4ed-7f97df92b151/bannerquienessomos.jpg
+featuredImage: 'https://ucarecdn.com/8e2186a7-603e-4e44-b4ed-7f97df92b151/bannerquienessomos.jpg'
 # featuredImage: '../images/banner4.png'
 subtitle:
 accordion:
@@ -33,7 +33,11 @@ Somos una fundación que gestiona proyectos culturales y educativos en cine y ar
 
 ### Visión
 
-Crear y producir proyectos con enfoque global de cine y artes escénicas de calidad que tengan un verdadero impacto social, educativo y artístico, convirtiéndose en referentes del sector.
+<!-- Crear y producir proyectos con enfoque global de cine y artes escénicas de calidad que tengan un verdadero impacto social, educativo y artístico, convirtiéndose en referentes del sector.
+
+Somos una fundación que crea y gestiona proyectos culturales y educativos en cine y artes escénicas. -->
+
+Crear, producir y gestionar proyectos culturales y educativos en cine y artes escénicas.
 
 ### Valores
 
