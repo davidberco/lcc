@@ -45,11 +45,11 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, video, 
       <img className="Image" src={banner2} alt='banner2'></img>
     </div>
     
-    <section className="section">
+    {/* <section className="section">
       <div className="container">
         <Content source={body} />
       </div>
-    </section>
+    </section> */}
     
     {/* <section className="section taCenter">
       <h2>Noticias</h2>

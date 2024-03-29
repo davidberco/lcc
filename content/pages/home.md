@@ -10,7 +10,7 @@ meta:
   image: 'https://ucarecdn.com/b3bbd594-4e2e-4961-865e-175e8dbd0b90/'
 video: 'https://ucarecdn.com/91fddfd0-eceb-4c49-bd7a-a99e89020034/videoBackground1.mp4'
 videoPoster: https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/
-videoTitle: La Cinta Corta
+videoTitle:
 iconsImages:
   icon1: './images/video-camera.png'
   icon2: './images/video-camera.png'

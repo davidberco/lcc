@@ -5,6 +5,8 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import SVGIcon from '../components/SVGIcon'
+import ButtonAnimation from '../components/ButtonAnimation'
+
 import AvatarsGallery from '../components/AvatarsGallery'
 
 // Export Template for use in CMS preview
@@ -27,6 +29,13 @@ export const QuienesSomosPageTemplate = ({
       <div className="container">
         <Content source={body} />
       </div>
+      <div className="container">
+     <ButtonAnimation>
+
+     </ButtonAnimation>
+
+      </div>
+
       <div className="container">
         <AvatarsGallery/>
       </div>

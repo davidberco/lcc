@@ -1,6 +1,7 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby'
 import MemberCard from '../components/MemberCard'
+import ButtonAnimation from './ButtonAnimation'
 import "./ProjectsGallery.css"
 
 function ProjectsGallery () {
@@ -36,7 +37,7 @@ const icon3 = './images/teather.png';
   return (
     <div className="section">
       <div className="container">
-        <h3 className="taCenter smallCaps">
+        <h3 className="taCenter ">
         Te invitamos a conocer las tres áreas que manejamos: 
         </h3>
       </div>
@@ -44,42 +45,50 @@ const icon3 = './images/teather.png';
         <div className="member-card">
           <MemberCard icon={icon2}
           />
-              <a className='linksToProjects' href='/post-categories/cine-audiovisual/'>
-              <div
+            <a className='linksToProjects' href='/post-categories/cine-audiovisual/'>
+              <ButtonAnimation label="Cine y Audiovisual" />
+
+              {/* <div
               className="Button"
               tabIndex={0}
               aria-label="clickTo"
               role="button"
-            >Cine y Audiovisual</div>
-              </a>
+              >
+              Cine y Audiovisual
+              </div> */}
+            </a>
             
         </div>
         <div className="member-card">
           <MemberCard icon={icon3}
           />
               <a className='linksToProjects' href='/post-categories/artes-escenicas/'>
-              <div
+              <ButtonAnimation label="Artes Escénicas" />
+
+              {/* <div
               className="Button"
               tabIndex={0}
               aria-label="clickTo"
               role="button"
             >
               Artes Escénicas
-            </div>
+            </div> */}
               </a>
         </div>    
         <div className="member-card">
           <MemberCard icon={icon1}
           />
               <a className='linksToProjects' href='/post-categories/cultura-educacion/'>
-              <div
+              <ButtonAnimation label="Cultura y Educación" />
+              
+              {/* <div
               className="Button"
               tabIndex={0}
               aria-label="clickTo"
               role="button"
             >
               Cultura y Educación
-            </div>
+            </div> */}
               </a>
         </div> 
       </div>

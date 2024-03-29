@@ -12,6 +12,7 @@
   --font-sansSerif: 'Roboto', sans-serif;
   --font-system: system-ui; /* postcssPresetEnv */
   --borderRadius: 3px;
+  /* font-size: 16px; */
 }
 
 ::-webkit-scrollbar {
@@ -33,7 +34,8 @@
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 62.5%; 
+  /* font-size: 16px; */
   min-height: 100%;
   background: var(--lightGrey);
 }
@@ -61,7 +63,7 @@ strong {
 
 p {
   margin-top: 0;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 
 h1,
@@ -70,8 +72,9 @@ h3,
 h4,
 h5,
 h6 {
+  /* font-size: 1.75em; */
   margin: 0;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.15em;
   font-family: var(--font-sansSerif);
   font-weight: 800;
 }
@@ -178,6 +181,7 @@ blockquote {
   width: 100%;
   padding: 5rem 0;
   /* border-bottom: 1px solid #f1f1f1; */
+  
 }
 .section:last-child {
   border: 0;
@@ -314,7 +318,7 @@ blockquote {
 
 .banner {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: center;
   
   & .container {
@@ -322,7 +326,7 @@ blockquote {
     padding: 0 2rem;
     
     & h3 {
-      padding-bottom: 1.5rem;
+      padding-top: 3rem;
       color: var(--white);
       text-shadow: -2px 3px 2px var(--secondary);
       
