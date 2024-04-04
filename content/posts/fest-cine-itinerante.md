@@ -23,4 +23,8 @@ Funcionamos como festival desde 2005 hasta 2012. La falta de financiamiento no n
 
 Puedes visitar nuestro blog donde vas a encontrar toda la galería de fotos y la historia del festival: [www.lacintacorta.blogspot.com](http://www.lacintacorta.blogspot.com)
 
-(aqui me faltan Fotos)
+![https://ucarecdn.com/539441b1-ba84-48d9-a7ff-d9d75ebb4221/261323_131872550226201_4492821_n.jpg](https://ucarecdn.com/539441b1-ba84-48d9-a7ff-d9d75ebb4221/261323_131872550226201_4492821_n.jpg)
+
+![https://ucarecdn.com/b27a97a2-7529-4686-b388-9070acadd9df/254219_130724713674318_2361653_n.jpg](https://ucarecdn.com/b27a97a2-7529-4686-b388-9070acadd9df/254219_130724713674318_2361653_n.jpg)
+
+![https://ucarecdn.com/b5a95ee3-2dfd-4436-80d5-6daeb550c696/AficheGira.jpg](https://ucarecdn.com/b5a95ee3-2dfd-4436-80d5-6daeb550c696/AficheGira.jpg)

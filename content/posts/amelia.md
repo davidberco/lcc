@@ -18,4 +18,8 @@ meta:
 
 Primer cortometraje dirigido por Julia Silva. Amelia explora el realismo mágico y las historias de amor. Fue filmado en las sierras de Merlo, en la provincia de San Luis, Argentina y estrenado en 2007.
 
-(me falta el afiche)
+(me falta el afiche) (no hay ahhh)
+
+![https://ucarecdn.com/88464c5b-0362-4eb4-9073-2c81b37957f7/AmeliaDetrasdeescena03Copy.jpg](https://ucarecdn.com/88464c5b-0362-4eb4-9073-2c81b37957f7/AmeliaDetrasdeescena03Copy.jpg)
+
+![https://ucarecdn.com/12fe588b-d4f8-4b96-9d5d-f7295f12665d/Amelia.jpg](https://ucarecdn.com/12fe588b-d4f8-4b96-9d5d-f7295f12665d/Amelia.jpg)

@@ -38,4 +38,8 @@ Si quieres conocer más sobre este proyecto, ver el teaser ya disponible, apoyar
 - Montajista: Emmanuel Blanchard
 - Año de producción: 2024 - 2025
 
-(ME faltan Las fotos)
+![https://ucarecdn.com/5963943a-b9ee-4e19-aed9-68a36d9f361f/WhatsAppImage20230312at1542551.jpeg](https://ucarecdn.com/5963943a-b9ee-4e19-aed9-68a36d9f361f/WhatsAppImage20230312at1542551.jpeg)
+
+![https://ucarecdn.com/e9ffe53d-9fe3-4f58-b2f4-0a32fcbced00/WhatsAppImage20230312at093408.jpeg](https://ucarecdn.com/e9ffe53d-9fe3-4f58-b2f4-0a32fcbced00/WhatsAppImage20230312at093408.jpeg)
+
+![https://ucarecdn.com/65844489-bd5b-4749-95c7-60f20192e725/WhatsAppImage20230312at1614333.jpeg](https://ucarecdn.com/65844489-bd5b-4749-95c7-60f20192e725/WhatsAppImage20230312at1614333.jpeg)

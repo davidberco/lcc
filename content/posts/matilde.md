@@ -37,4 +37,6 @@ Matilde es una mujer que decidió vivir libremente en un país conservador y mac
 Mira el trailer aquí:
 [https://vimeo.com/654257625](https://vimeo.com/654257625)
 
-(me falta el afiche)
+![https://ucarecdn.com/65f26bb3-bf4e-49a9-95a0-b9cc0379ddd6/242748101_522331442507727_49639033596024113_n.jpg](https://ucarecdn.com/65f26bb3-bf4e-49a9-95a0-b9cc0379ddd6/242748101_522331442507727_49639033596024113_n.jpg)
+
+![https://ucarecdn.com/13760c39-5c26-4007-81e7-f0cb63ca2578/MATILDECOVERIMAGE.jpg](https://ucarecdn.com/13760c39-5c26-4007-81e7-f0cb63ca2578/MATILDECOVERIMAGE.jpg)

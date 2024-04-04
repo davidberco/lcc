@@ -35,4 +35,6 @@ El encuentro con un diario es el inicio para empezar un “viaje” hacia recuer
 
 La obra se ha presentado en el Teatro Variedades, Studio Theatre de la Aso. Humboldt de la ciudad de Quito, en el festival Mujeres en Escena - Quito, en el Festival de Creación Femenina la Grande Folie en Lyon, Francia, en el teatro Amigos de Merlo de San Luis Argentina, y en el Sindicato de las Maravillas en Córdoba Argentina.
 
-(Aumentar afiche)
+(Aumentar afiche) (berco: No hay ahhh)
+
+![https://ucarecdn.com/bd9fc1f0-980a-4ded-8e75-5c312571d8c5/IMG_9328.JPG](https://ucarecdn.com/bd9fc1f0-980a-4ded-8e75-5c312571d8c5/IMG_9328.JPG)

@@ -48,4 +48,6 @@ https://www.youtube.com/watch?v=_cwtust4tiY&t=0s
 
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/_cwtust4tiY?si=MRezFtrJJ_Bk_bCb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
 
-(me falta el afiche )
+![https://ucarecdn.com/d474ce3c-2e59-414b-b5ab-7d3710584ee1/Crisalida.jpg](https://ucarecdn.com/d474ce3c-2e59-414b-b5ab-7d3710584ee1/Crisalida.jpg)
+
+![https://ucarecdn.com/19723ac9-ca41-4fc4-9de9-b2e02c5b5e4d/39CrisalidaFrame2.jpg](https://ucarecdn.com/19723ac9-ca41-4fc4-9de9-b2e02c5b5e4d/39CrisalidaFrame2.jpg)

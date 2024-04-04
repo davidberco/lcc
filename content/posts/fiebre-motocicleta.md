@@ -23,4 +23,4 @@ meta:
 Conoce más pinchando aquí:
 [www.fiebredemotocileta.com](http://www.fiebredemotocileta.com)
 
-(me falta una Foto)
+(me falta una Foto) (Solo hay una foto en el drive, la que esta de cover)

@@ -44,4 +44,8 @@ Diferencias (Sous-titres français): https://vimeo.com/296695194
 
 Diferencias (Sottotitoli in italiano): https://vimeo.com/489510719
 
-(Me falta el afiche)
+![https://ucarecdn.com/1fb8b9b2-8b5f-4bef-9fce-e0d2cfba3ec0/Estreno.jpg](https://ucarecdn.com/1fb8b9b2-8b5f-4bef-9fce-e0d2cfba3ec0/Estreno.jpg)
+
+![https://ucarecdn.com/08b5638b-d298-482c-b4c8-f368a18f03ec/Refcolor1.jpg](https://ucarecdn.com/08b5638b-d298-482c-b4c8-f368a18f03ec/Refcolor1.jpg)
+
+![https://ucarecdn.com/5256d4c8-3673-404b-b8d5-1ccd53f4fdfe/Refcolor7.jpg](https://ucarecdn.com/5256d4c8-3673-404b-b8d5-1ccd53f4fdfe/Refcolor7.jpg)

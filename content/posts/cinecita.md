@@ -25,4 +25,13 @@ Actualmente puedes conocer un poco de la gira y puedes ver la promo de presentac
 <br />
 
 Si quieres conocer más acerca de este proyecto o de la metodología que utilizamos, puedes solicitarnos una asesoría. Contáctanos.
-(Me faltan fotos)
+
+![https://ucarecdn.com/75618558-57cb-4d80-b79e-afc1a159c800/149928_140892039296225_6643928_n.jpg](https://ucarecdn.com/75618558-57cb-4d80-b79e-afc1a159c800/149928_140892039296225_6643928_n.jpg)
+
+![https://ucarecdn.com/2d822990-4eb6-4ea7-bd6f-695d8e49e1bc/148114_140892895962806_3031682_n.jpg](https://ucarecdn.com/2d822990-4eb6-4ea7-bd6f-695d8e49e1bc/148114_140892895962806_3031682_n.jpg)
+
+![https://ucarecdn.com/80d15136-5284-461d-a205-33cfa082fb3b/75162_140893175962778_4068917_n.jpg](https://ucarecdn.com/80d15136-5284-461d-a205-33cfa082fb3b/75162_140893175962778_4068917_n.jpg)
+
+![https://ucarecdn.com/1de90945-1f45-48fe-87f9-d6189ea92acc/73269_140892619296167_1759434_n.jpg](https://ucarecdn.com/1de90945-1f45-48fe-87f9-d6189ea92acc/73269_140892619296167_1759434_n.jpg)
+
+![https://ucarecdn.com/7d790689-2f68-4543-8f29-7837ea5a5887/73809_140892695962826_4223260_n.jpg](https://ucarecdn.com/7d790689-2f68-4543-8f29-7837ea5a5887/73809_140892695962826_4223260_n.jpg)
