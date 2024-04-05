@@ -38,7 +38,7 @@ const icon3 = './images/teather.png';
     <div className="section">
       <div className="container">
         <h3 className="taCenter ">
-        Te invitamos a conocer las tres áreas que manejamos: 
+        Conoce las tres áreas que manejamos 
         </h3>
       </div>
       <div className='member-container'>

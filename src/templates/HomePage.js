@@ -39,7 +39,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, video, 
     <div className="banner">
       <div className="container">
         <h3 className="taCenter upperCaseText">
-        GESTIONAMOS PROYECTOS CULTURALES, ARTÍSTICOS, EDUCATIVOS, EN CINE Y ARTES ESCÉNICAS.
+        Creamos y gestionamos PROYECTOS CULTURALES, ARTÍSTICOS, EDUCATIVOS, EN CINE Y ARTES ESCÉNICAS.
         </h3>
       </div>
       <img className="Image" src={banner2} alt='banner2'></img>

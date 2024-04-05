@@ -4,7 +4,7 @@ title: Matilde
 status: Published
 date: '2024-02-01'
 featuredImage: >-
-  https://ucarecdn.com/baca3300-032e-40ae-8fa5-3aad24a01c4b/
+  https://ucarecdn.com/13760c39-5c26-4007-81e7-f0cb63ca2578/MATILDECOVERIMAGE.jpg
 excerpt: This is an excerpt of Post Two
 categories:
   - category: Cine & Audiovisual
