@@ -236,6 +236,7 @@ blockquote {
   text-decoration: none;
   font-weight: 700;
   letter-spacing: 0.05em;
+  font-family: var(--font-sansSerif);
   font-size: 1.4rem;
   display: inline-block;
   padding: 1.25rem 3rem;

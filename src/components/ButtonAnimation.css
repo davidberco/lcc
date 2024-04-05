@@ -27,6 +27,7 @@
 
   position: relative;
   display: inline-block;
+  font-family: var(--font-sansSerif);
   font-size: inherit;
   text-align: center;
   text-decoration: none !important;
@@ -55,7 +56,7 @@
 .btn-px:focus,
 .btn-pt:focus {
   text-decoration: none;
-  transform: scale(1.03);
+  transform: scale(1.01);
   will-change: transform, box-shadow;
   box-shadow:
     0 2px 5px rgba(0, 0, 0, 0.5),
@@ -89,7 +90,7 @@
   height: 1px;
   width: 40%;
   box-shadow: 0 1px 5px rgba(255, 255, 255, 0.2);
-  transition: all 0.3s ease-in-out 0s;
+  transition: all 0.1s ease-in-out 0s;
 }
 .btn-px:active::before,
 .btn-pt:active::before {

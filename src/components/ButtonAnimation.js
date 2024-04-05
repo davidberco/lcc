@@ -7,11 +7,11 @@ const buttonRealisticFunction = (props) => {
     const labelText = props.label
 
   return ( 
-    <div className='button' role='button'>
-      <button  className='btn-px' aria-pressed="false" value="px" aria-label="title of the button display on screen">
+    // <div className='' role='button'>
+      <button  className='btn-px' role='button' aria-pressed="false" value="px" aria-label="title of the button display on screen">
       {labelText}
       </button>
-    </div>
+    // </div>
    );
 }
  
