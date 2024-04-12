@@ -22,5 +22,3 @@ meta:
 
 Conoce más pinchando aquí:
 [www.fiebredemotocileta.com](http://www.fiebredemotocileta.com)
-
-(me falta afiche)
