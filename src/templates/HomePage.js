@@ -54,9 +54,9 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, video, 
           size="cover"
           className=""
      />
-      <h3 className="PubHomePageTitle taCenter upperCaseText">
-        Creamos y gestionamos PROYECTOS CULTURALES, ARTÍSTICOS, EDUCATIVOS, EN CINE Y ARTES ESCÉNICAS.
-        </h3>
+      <h4 className="PubHomePageTitle taCenter upperCaseText">
+        CREAMOS Y GESTIONAMOS PROYECTOS CULTURALES, ARTÍSTICOS, EDUCATIVOS, EN CINE Y ARTES ESCÉNICAS.
+        </h4>
     </div>
 
 
