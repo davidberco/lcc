@@ -5,6 +5,7 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import BackgroundVideo from '../components/BackgroundVideo'
+import PubFooter from '../components/PubFooter'
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body, video, videoPoster, videoTitle,banner2 }) => (
@@ -36,14 +37,40 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, video, 
       <ProjectGallery />
     </div>
  {/* Banner by BercoStudio */}
-    <div className="banner">
-      <div className="container">
-        <h3 className="taCenter upperCaseText">
+    {/* <div className="banner">
+      <div className="container PubHomePageTitle">
+        <h3 className=" taCenter upperCaseText">
         Creamos y gestionamos PROYECTOS CULTURALES, ARTÍSTICOS, EDUCATIVOS, EN CINE Y ARTES ESCÉNICAS.
         </h3>
       </div>
       <img className="Image" src={banner2} alt='banner2'></img>
+    </div> */}
+
+    <div className="PubHomePageStyle">
+
+    <PubFooter background resolutions="large"
+          src={banner2}
+          alt={videoTitle}
+          size="cover"
+          className=""
+     />
+      <h3 className="PubHomePageTitle taCenter upperCaseText">
+        Creamos y gestionamos PROYECTOS CULTURALES, ARTÍSTICOS, EDUCATIVOS, EN CINE Y ARTES ESCÉNICAS.
+        </h3>
     </div>
+
+
+
+    {/* <div className="BackgroundImage" style={{ backgroundImage: `url(${banner2})` }} >
+      <h3 className="taCenter upperCaseText">
+        Creamos y gestionamos PROYECTOS CULTURALES, ARTÍSTICOS, EDUCATIVOS, EN CINE Y ARTES ESCÉNICAS.
+        </h3>
+      </div> */}
+
+    {/* <div className="container">
+      <div className="BackgroundImage" style={{ backgroundImage: `url(${banner2})` }} >
+      </div>
+    </div> */}
     
     {/* <section className="section">
       <div className="container">

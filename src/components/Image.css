@@ -29,3 +29,19 @@
 .LazyImage.faded {
   opacity: 1;
 }
+
+.PubHomePageStyle {
+  height: 25vh;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.PubHomePageTitle {
+  position: relative;
+  padding: 0 2rem;
+  padding-top: 3rem;
+  color: var(--white);
+  text-shadow: -2px 3px 2px var(--secondary);
+}

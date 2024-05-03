@@ -321,6 +321,7 @@ blockquote {
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  /* overflow: hidden; */
   
   & .container {
     position: absolute;
