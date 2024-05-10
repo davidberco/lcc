@@ -6,6 +6,7 @@ import Content from '../components/Content'
 import Layout from '../components/Layout'
 import BackgroundVideo from '../components/BackgroundVideo'
 import PubFooter from '../components/PubFooter'
+import InstagramFeed from '../components/InstagramFeed'
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body, video, videoPoster, videoTitle,banner2 }) => (
@@ -58,6 +59,20 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, video, 
         CREAMOS Y GESTIONAMOS PROYECTOS CULTURALES, ARTÍSTICOS, EDUCATIVOS, EN CINE Y ARTES ESCÉNICAS.
         </h4>
     </div>
+
+    <div className="container">
+      <h1 className='taCenter upperCaseText bigTitle'>
+      Noticias
+      </h1>
+    </div>
+
+    <div id="curator-feed-lcc-feed-layout" className=''>
+    <a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a>
+    </div>
+
+    
+    <InstagramFeed />
+
 
 
 
