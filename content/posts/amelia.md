@@ -2,7 +2,7 @@
 template: SinglePost
 title: Amelia, cortometraje de ficción
 status: Published
-date: '2024-02-01'
+date: '2024-01-06'
 featuredImage: 'https://ucarecdn.com/0d890de5-a5c2-4e0c-ba2c-3e62c7b45556/'
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words

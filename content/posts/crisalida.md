@@ -2,7 +2,7 @@
 template: SinglePost
 title: Crisálida, Cortometraje de ficción
 status: Published
-date: '2024-02-01'
+date: '2024-02-03'
 featuredImage: >-
   https://ucarecdn.com/304c2792-64b5-413f-83bb-2f619d679372/
 excerpt: >-

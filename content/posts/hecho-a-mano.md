@@ -2,7 +2,7 @@
 template: SinglePost
 title: Hecho a mano para wawas
 status: Published
-date: '2024-02-01'
+date: '2024-02-05'
 featuredImage: 'https://ucarecdn.com/d46471c9-a134-4a99-9bbd-51c0ab5cd8b1/'
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words

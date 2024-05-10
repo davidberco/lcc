@@ -2,7 +2,7 @@
 template: SinglePost
 title: Fiebre de Motocicleta
 status: Published
-date: '2024-02-01'
+date: '2024-02-06'
 featuredImage: 'https://ucarecdn.com/c8ca59d2-7eea-4a70-be1e-ac971bcbc3eb/'
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words

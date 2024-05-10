@@ -2,7 +2,7 @@
 template: SinglePost
 title: Diferencias, cortometraje de ficción
 status: Featured / Published
-date: '2024-02-01'
+date: '2024-02-03'
 featuredImage: 'https://ucarecdn.com/a784c7f1-543e-4874-874c-d8c6e9e64c3e/'
 excerpt: >-
   Etiam ac quam eget lectus venenatis ullamcorper sit amet non arcu. Nullam
