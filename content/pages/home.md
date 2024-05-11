@@ -2,7 +2,7 @@
 template: HomePage
 slug: ''
 title: 'Somos una productora y fundación cultural'
-featuredImage: https://ucarecdn.com/df1c194b-935b-4fa8-9b2d-891dc0471d9c/Filmcrewteambgfilm.jpg
+featuredImage:
 subtitle: 'Nuestra sede es Ecuador, un país megadiverso y multicultural  en Latinoamérica. Desde aquí  creamos y producimos  proyectos locales e internacionales.'
 meta:
   description: Somos una productora cultural para Ecuador y el mundo
