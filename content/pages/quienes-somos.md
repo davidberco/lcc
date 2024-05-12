@@ -33,10 +33,6 @@ Somos una fundación que gestiona proyectos culturales y educativos en cine y ar
 
 ### Visión
 
-<!-- Crear y producir proyectos con enfoque global de cine y artes escénicas de calidad que tengan un verdadero impacto social, educativo y artístico, convirtiéndose en referentes del sector.
-
-Somos una fundación que crea y gestiona proyectos culturales y educativos en cine y artes escénicas. -->
-
 Crear, producir y gestionar proyectos culturales y educativos en cine y artes escénicas.
 
 ### Valores
@@ -47,30 +43,6 @@ Crear, producir y gestionar proyectos culturales y educativos en cine y artes es
 - Profesionalismo.
 - Honestidad.
 - Creatividad.
-
-<!-- ### El equipo está conformado por:
-
-#### **Julia Silva**
-
-Directora, creativa y productora general
-IG @juliasilvapym
-
-#### **Emmanuel Blanchard**
-
-Productor y creativo
-IG: @colorcorrectgradingpolish
-
-#### **Anahí Silva**
-
-Socia y creativa
-IG @anahi_spym
-
-#### **María Eugenia Paz y Miño**
-
-Antropóloga y escritora
-IG @mariapazymino
-
-(Fotos que vayan todas en ByN) -->
 
 # Nuestra biografía
 

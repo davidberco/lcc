@@ -2,11 +2,14 @@
 
 local_backend: true
 media_folder: 'static/images'
+# publish_mode: editorial_workflow
+
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
-# display_url: https://gatsbro.netlify.com # This url will display in the top-right of the CMS
+display_url: https://lacintacorta.org # This url will display in the top-right of the CMS
+
 media_library:
   name: uploadcare
   config:
@@ -43,7 +46,7 @@ collections: # A list of collections the CMS should be able to edit
               widget: markdown,
               required: false,
             }
-          # - { label: Body, name: body, widget: markdown }
+          - { label: Body, name: body, widget: markdown }
           # - label: 'Accordion'
           #   name: 'accordion'
           #   widget: 'list'
@@ -76,8 +79,48 @@ collections: # A list of collections the CMS should be able to edit
                   required: false,
                 }
 
+      - file: 'content/pages/quienes-somos.md'
+        label: 'Quienes Somos'
+        name: 'about-us-page'
+        fields:
+          - {
+              label: Template,
+              name: template,
+              widget: hidden,
+              default: BlogIndex,
+            }
+          - { label: Slug, name: slug, widget: hidden, default: 'blog' }
+          - { label: Title, name: title, widget: string }
+          - { label: Featured Image, name: featuredImage, widget: image }
+          - { label: Subtitle, name: subtitle, widget: markdown }
+          - { label: Body, name: body, widget: markdown }
+          - label: 'Meta'
+            required: false
+            name: 'meta'
+            widget: 'object'
+            fields:
+              - { label: Title, name: title, widget: string, required: false }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: text,
+                  required: false,
+                }
+              - {
+                  label: Canonical Link,
+                  name: canonicalLink,
+                  widget: string,
+                  required: false,
+                }
+              - {
+                  label: Noindex,
+                  name: noindex,
+                  widget: boolean,
+                  required: false,
+                }
+
       - file: 'content/pages/contact.md'
-        label: 'Sección Contáctanos'
+        label: 'Contáctanos'
         name: 'contact-page'
         fields:
           - {

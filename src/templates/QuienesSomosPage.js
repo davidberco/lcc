@@ -14,6 +14,7 @@ export const QuienesSomosPageTemplate = ({
   title,
   subtitle,
   featuredImage,
+  historia_lcc,
   accordion,
   body
 }) => (
@@ -30,17 +31,11 @@ export const QuienesSomosPageTemplate = ({
         <Content source={body} />
       </div>
       <div className="container">
-     {/* <ButtonAnimation>
-
-     </ButtonAnimation> */}
-
       </div>
 
       <div className="container">
         <AvatarsGallery/>
       </div>
-      
-      
     </section>
   </main>
 )

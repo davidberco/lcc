@@ -1,7 +1,7 @@
 ---
 template: HomePage
 slug: ''
-title: 'Somos una productora y fundación cultural'
+title: Somos una productora y fundación cultural
 featuredImage:
 subtitle: 'Nuestra sede es Ecuador, un país megadiverso y multicultural  en Latinoamérica. Desde aquí  creamos y producimos  proyectos locales e internacionales.'
 meta:

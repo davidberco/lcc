@@ -37,27 +37,17 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, video, 
       
       <ProjectGallery />
     </div>
- {/* Banner by BercoStudio */}
-    {/* <div className="banner">
-      <div className="container PubHomePageTitle">
-        <h3 className=" taCenter upperCaseText">
-        Creamos y gestionamos PROYECTOS CULTURALES, ARTÍSTICOS, EDUCATIVOS, EN CINE Y ARTES ESCÉNICAS.
-        </h3>
-      </div>
-      <img className="Image" src={banner2} alt='banner2'></img>
-    </div> */}
 
     <div className="PubHomePageStyle">
-
-    <PubFooter background resolutions="large"
+      <PubFooter background resolutions="large"
           src={banner2}
           alt={videoTitle}
           size="cover"
           className=""
-     />
+      />
       <h4 className="PubHomePageTitle taCenter upperCaseText">
         CREAMOS Y GESTIONAMOS PROYECTOS CULTURALES, ARTÍSTICOS, EDUCATIVOS, EN CINE Y ARTES ESCÉNICAS.
-        </h4>
+      </h4>
     </div>
 
     <div className="container">
@@ -70,43 +60,8 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, video, 
     <a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a>
     </div>
 
-    
     <InstagramFeed />
 
-
-
-
-    {/* <div className="BackgroundImage" style={{ backgroundImage: `url(${banner2})` }} >
-      <h3 className="taCenter upperCaseText">
-        Creamos y gestionamos PROYECTOS CULTURALES, ARTÍSTICOS, EDUCATIVOS, EN CINE Y ARTES ESCÉNICAS.
-        </h3>
-      </div> */}
-
-    {/* <div className="container">
-      <div className="BackgroundImage" style={{ backgroundImage: `url(${banner2})` }} >
-      </div>
-    </div> */}
-    
-    {/* <section className="section">
-      <div className="container">
-        <Content source={body} />
-      </div>
-    </section> */}
-    
-    {/* <section className="section taCenter">
-      <h2>Noticias</h2>
-      <p>Section to develop...</p>
-      <div
-        className="Button"
-        onClick={``}
-        tabIndex={0}
-        aria-label="Toggle Popup"
-        role="button"
-      >
-        ver proyectos
-      </div>
-    </section> */}
-    
   </main>
 )
 
