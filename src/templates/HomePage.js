@@ -9,7 +9,7 @@ import PubFooter from '../components/PubFooter'
 import InstagramFeed from '../components/InstagramFeed'
 
 // Export Template for use in CMS preview
-export const HomePageTemplate = ({ title, subtitle, featuredImage, body, video, videoPoster, videoTitle,banner2 }) => (
+export const HomePageTemplate = ({ title, subtitle, featuredImage, body, video, videoPoster, videoTitle, banner2 }) => (
   <main className="Home">
     {/* <PageHeader
       large      
