@@ -61,5 +61,9 @@
   "devDependencies": {
     "prettier": "^1.18.2",
     "sass": "^1.32.8"
-  }
+  },
+  "engines": {
+  "node": ">=18.17.0",
+  "yarn": ">=1.22.0"
+}
 }
