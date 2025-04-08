@@ -21,4 +21,4 @@ locations:
 
 # Envíanos un mensaje
 
-Escríbenos y envía un mensaje a través del formulario. Déjanos tus comentarios o contáctanos para más información.
+Escríbenos y envía un mensaje a través del formulario. Déjanos tus comentarios o contáctanos para más información
