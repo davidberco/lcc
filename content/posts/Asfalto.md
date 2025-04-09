@@ -2,7 +2,7 @@
 template: SinglePost
 title: Asfalto
 status: Published
-date: '2024-02-01'
+date: '2024-02-02'
 featuredImage: 'https://ucarecdn.com/6adc64b5-9c26-4790-acc0-fdb5dda4e3ba/asfaltoMod.jpg'
 excerpt: This is an excerpt of Post Two
 categories:
