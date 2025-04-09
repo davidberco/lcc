@@ -18,9 +18,9 @@ meta:
 
 ### Largometraje documental.
 
-Ópera prima documental de Emmanuel Blanchard, producida por Julia Silva, que se encuentra en etapa de postproducción (2024). Ha merecido el fondo de Desarrollo Producción y Postproducción del Instituto de Cine del Ecuador y ha participado en las Residencias artísticas de Acampadoc (Panamá) y Bolivia Lab. Es una coproducción entre La República Invisible y La Cinta Corta.
+Ópera prima documental de Emmanuel Blanchard, producida por Julia Silva, una coproducción entre Ecuador y Francia.
+Estado: Iniciando ruta de festivales 2025 . Ha merecido el fondo de Desarrollo Producción y Postproducción del Instituto de Cine del Ecuador y ha participado en las Residencias artísticas de Acampadoc (Panamá) , Bolivia Lab y REDedoc (Ecuador). Es una producción de La Cinta Corta (Ecuador), en coproducción con La República Invisible y FR Films (Francia).
 
 ![afiche fiebre de motocicleta](https://ucarecdn.com/3a58c054-fc6a-490a-b2c0-944d36f57910/FiebreDeMotocicleta_02.jpg)
 
-Conoce más pinchando aquí:
-[www.fiebredemotocileta.com](http://www.fiebredemotocileta.com)
+Puedes ver Información de nuestra película ingresando a [www.fiebredemotocileta.com](http://www.fiebredemotocicleta.com)

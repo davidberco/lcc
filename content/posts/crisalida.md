@@ -23,14 +23,17 @@ Dirigido por Julia Silva y estrenado en 2017 y ganador a mejor actor ecuatoriano
 
 - Género: Ficción
 - País: Ecuador
-- Año de Producción 2016
+- Año de Producción 2017
 - Duración: 17 min
 - Full HD
 - Personaje Principal: Pablo Aguirre
 - Dirección: Julia Silva
+- Producción: Diana Freire
+- Dirección de Arte: David Intriago
 - Fotografía: Simón Brauer
-  Sonido: Emil Plonski
-  Música: Guillermo Cepeda
+- Sonido: Emil Plonski
+- Música: Guillermo Cepeda
+- Montaje: Emanuel Blanchard
 
 Montaje: Emanuel Blanchard
 
