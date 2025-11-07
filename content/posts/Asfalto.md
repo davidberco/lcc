@@ -31,6 +31,7 @@ La obra transcurre en las calles de una ciudad: un territorio de encuentro y con
 - Espacio de creación en etapa inicial: Altillo Estudio
 - Residencia intensiva: Teatro Mexico (gracias a la co producción con la FTNS)
 - Producción: La Cinta Corta Fundación Cultural.
+- Fotografías del estreno: Tían López (FTNS)
 
 ### Equipo
 
@@ -77,6 +78,6 @@ Quieres saber más sobre el estreno de ASFALTO visita:
 
 ### Redes sociales Personales:
 
-- https//www.instagram.com/lacintacorta?igsh=NTJ5Zmw5N28wNTg5
+- https://www.instagram.com/lacintacorta?igsh=NTJ5Zmw5N28wNTg5
 - https://www.instagram.com/anahi_spym?igsh=NXMwNTI3NTB4MHZw
 - https://www.instagram.com/juliasilvapym?igsh=MXRmZmxsaHV3eHR4aw==
