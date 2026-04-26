@@ -1,17 +1,13 @@
-const postcssPresetEnv = require('postcss-preset-env')
-
 module.exports = {
   siteMetadata: {
     title: 'La Cinta Corta',
     siteUrl: 'https://lacintacorta.org'
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
     {
       resolve: 'gatsby-plugin-google-tagmanager',
       options: {
-        /*id: 'GTM-add_your_tag_here',*/
         id: 'GTM-P4RNF8D',
         includeInDevelopment: false
       }
@@ -24,10 +20,8 @@ module.exports = {
         start_url: '/',
         background_color: '#00C2BD',
         theme_color: '#00C2BD',
-        // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
-        // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: 'standalone',
-        icon: `${__dirname}/static/images/logo.svg` // This path is relative to the root of the site.
+        icon: `${__dirname}/static/images/logo.svg`
       }
     },
 
@@ -50,13 +44,13 @@ module.exports = {
     // images
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
+    'gatsby-plugin-image',
 
     {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-          // gatsby-remark-relative-images must
-          // go before gatsby-remark-images
+          // gatsby-remark-relative-images must go before gatsby-remark-images
           'gatsby-remark-relative-images',
           {
             resolve: 'gatsby-remark-images',
@@ -70,39 +64,20 @@ module.exports = {
       }
     },
 
-    // css (replace with gatsby-plugin-sass for v2)
-    {
-      resolve: `gatsby-plugin-sass`,
-      options: {
-        postCssPlugins: [
-          postcssPresetEnv({
-            browsers: '> 0.5%, last 2 versions, ie 11'
-          })
-        ]
-      }
-    },
-    {
-      resolve: `gatsby-plugin-postcss`,
-      options: {
-        postCssPlugins: [
-          require(`postcss-preset-env`)({
-            browsers: '> 0.5%, last 2 versions, ie 11'
-          })
-        ]
-      }
-    },
+    // css — PostCSS config lives in postcss.config.js
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-postcss`,
+
     {
       resolve: 'gatsby-plugin-nprogress',
       options: {
-        // Setting a color is optional.
         color: 'white',
-        // Disable the loading spinner.
         showSpinner: false
       }
     },
     'gatsby-plugin-sitemap',
     {
-      resolve: 'gatsby-plugin-netlify-cms',
+      resolve: 'gatsby-plugin-decap-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
         stylesPath: `${__dirname}/src/cms/admin.css`,

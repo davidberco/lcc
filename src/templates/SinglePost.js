@@ -1,6 +1,4 @@
 import React, { Fragment } from 'react'
-import Helmet from 'react-helmet'
-
 import _get from 'lodash/get'
 import { Link, graphql } from 'gatsby'
 import { ChevronLeft } from 'react-feather'
@@ -25,10 +23,6 @@ export const SinglePostTemplate = ({
       itemScope
       itemType="http://schema.org/BlogPosting"
     >
-    <Helmet>
-      <title>{title}</title>
-    </Helmet>
-
       {featuredImage && (
         <Image
           background
@@ -39,9 +33,6 @@ export const SinglePostTemplate = ({
       )}
 
       <div className="container skinny">
-        {/* <Link className="SinglePost--BackButton" to="/blog/">
-          <ChevronLeft /> ATRAS
-        </Link> */}
         <div className="SinglePost--Content relative">
           <div className="SinglePost--Meta">
             {date && (
@@ -62,7 +53,6 @@ export const SinglePostTemplate = ({
                     className="SinglePost--Meta--Category"
                   >
                     {cat.category}
-                    {/* Add a comma on all but last category */}
                     {index !== categories.length - 1 ? ',' : ''}
                   </span>
                 ))}
@@ -108,10 +98,7 @@ export const SinglePostTemplate = ({
 const SinglePost = ({ data: { post, allPosts } }) => {
   const thisEdge = allPosts.edges.find(edge => edge.node.id === post.id)
   return (
-    <Layout
-      meta={post.frontmatter.meta || false}
-      title={post.frontmatter.title || false}
-    >
+    <Layout>
       <SinglePostTemplate
         {...post}
         {...post.frontmatter}
@@ -125,11 +112,11 @@ const SinglePost = ({ data: { post, allPosts } }) => {
 
 export default SinglePost
 
+export const Head = ({ data: { post } }) => (
+  <title>{post.frontmatter.title}</title>
+)
+
 export const pageQuery = graphql`
-  ## Query for SinglePost data
-  ## Use GraphiQL interface (http://localhost:8000/___graphql)
-  ## $id is processed via gatsby-node.js
-  ## query name must be unique to this file
   query SinglePost($id: String!) {
     post: markdownRemark(id: { eq: $id }) {
       ...Meta
@@ -149,7 +136,7 @@ export const pageQuery = graphql`
 
     allPosts: allMarkdownRemark(
       filter: { fields: { contentType: { eq: "posts" } } }
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { frontmatter: { date: DESC } }
     ) {
       edges {
         node {

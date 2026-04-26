@@ -1,5 +1,5 @@
 import React from 'react'
-import CMS from 'netlify-cms-app'
+import CMS from 'decap-cms-app'
 import './cms-utils'
 
 import { HomePageTemplate } from '../templates/HomePage'
@@ -8,18 +8,7 @@ import { ContactPageTemplate } from '../templates/ContactPage'
 import { DefaultPageTemplate } from '../templates/DefaultPage'
 import { BlogIndexTemplate } from '../templates/BlogIndex'
 import { SinglePostTemplate } from '../templates/SinglePost'
-import uploadcare from 'netlify-cms-media-library-uploadcare'
-
-const config = {
-  media_library: {
-      config: {
-          publicKey: process.env.GATSBY_UPLOADCARE_PUBLIC_KEY
-      }
-  },
-}
-CMS.init({ config })
-
-CMS.registerMediaLibrary(uploadcare)
+CMS.init()
 
 if (
   window.location.hostname === 'localhost' &&

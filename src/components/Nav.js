@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { Location } from '@reach/router'
 import { Link } from 'gatsby'
+import { useLocation } from '@reach/router'
 import { Menu, X } from 'react-feather'
 import Logo from './Logo'
 
@@ -127,6 +127,7 @@ export class Navigation extends Component {
   }
 }
 
-export default ({ subNav }) => (
-  <Location>{route => <Navigation subNav={subNav} {...route} />}</Location>
-)
+export default ({ subNav }) => {
+  const location = useLocation()
+  return <Navigation subNav={subNav} location={location} />
+}

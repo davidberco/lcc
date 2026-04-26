@@ -1,88 +1,56 @@
 import React, { Fragment } from 'react'
-import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from 'gatsby'
-import Meta from './Meta'
+import { useStaticQuery, graphql } from 'gatsby'
 import Nav from './Nav'
 import Footer from './Footer'
-// import GithubCorner from './GithubCorner'
 
 import 'modern-normalize/modern-normalize.css'
 import './globalStyles.css'
 
-export default ({ children, meta, title }) => {
-  return (
-    <StaticQuery
-      query={graphql`
-        query IndexLayoutQuery {
-          settingsYaml {
-            siteTitle
-            siteDescription
-            googleTrackingId
-            socialMediaCard {
-              image
+const Layout = ({ children }) => {
+  const data = useStaticQuery(graphql`
+    query IndexLayoutQuery {
+      settingsYaml {
+        siteTitle
+        siteDescription
+        googleTrackingId
+        socialMediaCard {
+          image
+        }
+      }
+      allPosts: allMarkdownRemark(
+        filter: { fields: { contentType: { eq: "postCategories" } } }
+        sort: { frontmatter: { date: DESC } }
+      ) {
+        edges {
+          node {
+            fields {
+              slug
             }
-          }
-          allPosts: allMarkdownRemark(
-            filter: { fields: { contentType: { eq: "postCategories" } } }
-            sort: { order: DESC, fields: [frontmatter___date] }
-          ) {
-            edges {
-              node {
-                fields {
-                  slug
-                }
-                frontmatter {
-                  title
-                }
-              }
+            frontmatter {
+              title
             }
           }
         }
-      `}
-      render={data => {
-        const { siteTitle, socialMediaCard, googleTrackingId } =
-            data.settingsYaml || {},
-          subNav = {
-            posts: data.allPosts.hasOwnProperty('edges')
-              ? data.allPosts.edges.map(post => {
-                  return { ...post.node.fields, ...post.node.frontmatter }
-                })
-              : false
-          }
+      }
+    }
+  `)
 
-        return (
-          <Fragment>
-            <Helmet
-              defaultTitle={siteTitle}
-              titleTemplate={`%s | ${siteTitle}`}
-            >
-              {title}
-              <link href="https://ucarecdn.com" rel="preconnect" crossorigin />
-              <link rel="dns-prefetch" href="https://ucarecdn.com" />
-              {/* Add font link tags here */}
-            </Helmet>
+  const subNav = {
+    posts: data.allPosts.edges
+      ? data.allPosts.edges.map(post => ({
+          ...post.node.fields,
+          ...post.node.frontmatter
+        }))
+      : false
+  }
 
-            <Meta
-              googleTrackingId={googleTrackingId}
-              absoluteImageUrl={
-                socialMediaCard &&
-                socialMediaCard.image &&
-                socialMediaCard.image
-              }
-              {...meta}
-              {...data.settingsYaml}
-            />
-
-            {/* <GithubCorner url="https://github.com/thriveweb/yellowcake" /> */}
-
-            <Nav subNav={subNav} />
-
-            <Fragment>{children}</Fragment>
-
-            <Footer />
-          </Fragment>
-        )
-      }}
-    />
+  return (
+    <Fragment>
+      <Nav subNav={subNav} />
+      <Fragment>{children}</Fragment>
+      <Footer />
+    </Fragment>
   )
 }
+
+export default Layout

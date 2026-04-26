@@ -1,19 +1,19 @@
 import React from 'react'
-import GatsbyImage from 'gatsby-image'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+import { graphql } from 'gatsby'
 import PropTypes from 'prop-types'
 import _get from 'lodash/get'
 
 import './Image.css'
 
-const extractChildImageSharp = (src = '', format) => {
-  if (!format) {
-    if (typeof src === 'string' && !format) return src
-    const childImageSharp = _get(src, 'childImageSharp')
-    if (!childImageSharp) return _get(src, 'publicURL')
-  }
-  if (format === 'sizes' || format === 'resolutions')
-    return _get(src, `childImageSharp.${format}`)
-  return src
+const extractImageData = (src = '') => {
+  if (!src) return null
+  if (typeof src === 'string') return { type: 'url', value: src }
+  const gatsbyImageData = _get(src, 'childImageSharp.gatsbyImageData')
+  if (gatsbyImageData) return { type: 'gatsby', value: gatsbyImageData }
+  const publicURL = _get(src, 'publicURL')
+  if (publicURL) return { type: 'url', value: publicURL }
+  return null
 }
 
 class Image extends React.Component {
@@ -23,67 +23,60 @@ class Image extends React.Component {
       backgroundSize = 'cover',
       className = '',
       src,
-      srcSet,
       source,
       onClick,
-      sizes,
       alt,
       style,
       imgStyle
     } = this.props
 
-    const imageSizes = extractChildImageSharp(src, 'sizes')
-    const resolutions = extractChildImageSharp(src, 'resolutions')
-    const imageSrc = extractChildImageSharp(src || source)
+    const imageData = extractImageData(src || source)
 
     if (background) {
-      let style = {}
+      if (!imageData) return <div className={`BackgroundImage absolute ${className}`} />
 
-      if (typeof imageSrc === 'string') {
-        style = { backgroundImage: `url(${imageSrc})`, backgroundSize }
+      if (imageData.type === 'url') {
+        return (
+          <div
+            className={`BackgroundImage absolute ${className}`}
+            style={{ backgroundImage: `url(${imageData.value})`, backgroundSize }}
+          />
+        )
       }
 
+      // gatsby image as background
       return (
-        <div className={`BackgroundImage absolute ${className}`} style={style}>
-          {!style.backgroundImage && (
-            <Image
-              src={imageSrc}
-              alt={alt}
-              style={{
-                position: 'absolute',
-                width: 'auto',
-                height: 'auto'
-              }}
-              imgStyle={{
-                objectFit: backgroundSize
-              }}
-            />
-          )}
+        <div className={`BackgroundImage absolute ${className}`}>
+          <GatsbyImage
+            image={imageData.value}
+            alt={alt || ''}
+            style={{ position: 'absolute', width: '100%', height: '100%' }}
+            imgStyle={{ objectFit: backgroundSize }}
+          />
         </div>
       )
     }
 
-    if (imageSizes || resolutions) {
+    if (imageData && imageData.type === 'gatsby') {
       return (
         <GatsbyImage
           className={`Image ${className}`}
-          sizes={imageSizes}
-          resolutions={resolutions}
+          image={imageData.value}
           onClick={onClick}
-          alt={alt}
+          alt={alt || ''}
           style={style}
           imgStyle={imgStyle}
         />
       )
     }
 
+    const src_ = imageData ? imageData.value : (typeof src === 'string' ? src : '')
     return (
       <img
         className={`Image ${className}`}
-        src={imageSrc}
-        sizes={sizes || '100vw'}
+        src={src_}
         onClick={onClick}
-        alt={alt}
+        alt={alt || ''}
       />
     )
   }
@@ -99,73 +92,55 @@ export const query = graphql`
   fragment FluidImage on File {
     publicURL
     childImageSharp {
-      sizes(maxWidth: 2800, quality: 75) {
-        ...GatsbyImageSharpSizes_withWebp
-      }
+      gatsbyImageData(width: 2800, quality: 75, formats: [AUTO, WEBP])
     }
   }
   fragment NoBlurImage on File {
     publicURL
     childImageSharp {
-      sizes(maxWidth: 2800, quality: 75) {
-        ...GatsbyImageSharpSizes_withWebp_noBase64
-      }
+      gatsbyImageData(width: 2800, quality: 75, formats: [AUTO, WEBP], placeholder: NONE)
     }
   }
   fragment TracedImage on File {
     publicURL
     childImageSharp {
-      sizes(maxWidth: 2800, quality: 75) {
-        ...GatsbyImageSharpSizes_withWebp_tracedSVG
-      }
+      gatsbyImageData(width: 2800, quality: 75, formats: [AUTO, WEBP], placeholder: TRACED_SVG)
     }
   }
   fragment LargeImage on File {
     publicURL
     childImageSharp {
-      sizes(maxWidth: 1800, quality: 75) {
-        ...GatsbyImageSharpSizes_withWebp
-      }
+      gatsbyImageData(width: 1800, quality: 75, formats: [AUTO, WEBP])
     }
   }
   fragment MediumImage on File {
     publicURL
     childImageSharp {
-      sizes(maxWidth: 800, quality: 75) {
-        ...GatsbyImageSharpSizes_withWebp
-      }
+      gatsbyImageData(width: 800, quality: 75, formats: [AUTO, WEBP])
     }
   }
   fragment SmallImage on File {
     publicURL
     childImageSharp {
-      sizes(maxWidth: 400, quality: 75) {
-        ...GatsbyImageSharpSizes_withWebp
-      }
+      gatsbyImageData(width: 400, quality: 75, formats: [AUTO, WEBP])
     }
   }
   fragment LargeImageFixed on File {
     publicURL
     childImageSharp {
-      resolutions(width: 1800, quality: 75) {
-        ...GatsbyImageSharpResolutions_withWebp
-      }
+      gatsbyImageData(width: 1800, quality: 75, formats: [AUTO, WEBP], layout: FIXED)
     }
   }
   fragment MediumImageFixed on File {
     publicURL
     childImageSharp {
-      resolutions(width: 800, quality: 75) {
-        ...GatsbyImageSharpResolutions_withWebp
-      }
+      gatsbyImageData(width: 800, quality: 75, formats: [AUTO, WEBP], layout: FIXED)
     }
   }
   fragment SmallImageFixed on File {
     publicURL
     childImageSharp {
-      resolutions(width: 400, quality: 75) {
-        ...GatsbyImageSharpResolutions_withWebp
-      }
+      gatsbyImageData(width: 400, quality: 75, formats: [AUTO, WEBP], layout: FIXED)
     }
   }
 `

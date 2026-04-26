@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react'
-import Helmet from 'react-helmet'
 import { stringify } from 'qs'
 import { serialize } from 'dom-form-serializer'
 
@@ -18,6 +17,15 @@ class Form extends React.Component {
   state = {
     alert: '',
     disabled: false
+  }
+
+  componentDidMount() {
+    if (!document.querySelector('script[src*="recaptcha/api.js"]')) {
+      const script = document.createElement('script')
+      script.src = 'https://www.google.com/recaptcha/api.js'
+      script.async = true
+      document.body.appendChild(script)
+    }
   }
 
   handleSubmit = e => {
@@ -58,9 +66,6 @@ class Form extends React.Component {
 
     return (
       <Fragment>
-        <Helmet>
-          <script src="https://www.google.com/recaptcha/api.js" />
-        </Helmet>
         <form
           className="Form"
           name={name}
@@ -94,27 +99,6 @@ class Form extends React.Component {
               <span>Apellido</span>
             </label>
           </div>
-          {/* <fieldset>
-            <label className="Form--Label Form--Radio">
-              <input
-                className="Form--RadioInput"
-                type="radio"
-                name="gender"
-                value="male"
-                defaultChecked
-              />
-              <span>Male</span>
-            </label>
-            <label className="Form--Label Form--Radio">
-              <input
-                className="Form--RadioInput"
-                type="radio"
-                name="gender"
-                value="female"
-              />
-              <span>Female</span>
-            </label>
-          </fieldset> */}
           <label className="Form--Label">
             <input
               className="Form--Input Form--InputText"
@@ -150,14 +134,6 @@ class Form extends React.Component {
             />
             <span>Mensaje</span>
           </label>
-          {/* <label className="Form--Label Form-Checkbox">
-            <input
-              className="Form--Input Form--Textarea Form--CheckboxInput"
-              name="newsletter"
-              type="checkbox"
-            />
-            <span>Get news updates</span>
-          </label> */}
           <div
             className="g-recaptcha"
             data-sitekey="6LdQWnAlAAAAAAGellBKb5AmTuUWBz6zpdBOqLhg"
